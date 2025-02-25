@@ -1,0 +1,5 @@
+#Enable grapes to climb blocks tagged ropes
+enableGrapeVineClimbingTaggedRopes = true
+#Default rope block for grape to climb
+defaultGrapeVineRope = "farmersdelight:rope"
+

@@ -1,0 +1,13 @@
+[262월2025 00:07:43.110] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [초보자] 나연 has made the advancement [Tactical Fishing]
+[262월2025 00:23:03.818] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[262월2025 00:23:03.829] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[262월2025 00:23:03.850] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: OmIette lost connection: Server closed
+[262월2025 00:23:03.851] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [초보자] 성현 left the game
+[262월2025 00:23:03.863] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[262월2025 00:23:04.117] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Sebs-Server-World]'/minecraft:overworld
+[262월2025 00:23:04.331] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Sebs-Server-World]'/minecraft:the_end
+[262월2025 00:23:04.332] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Sebs-Server-World]'/minecraft:the_nether
+[262월2025 00:23:04.348] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (Sebs-Server-World): All chunks are saved
+[262월2025 00:23:04.349] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[262월2025 00:23:04.350] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[262월2025 00:23:04.350] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
