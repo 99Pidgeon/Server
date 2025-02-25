@@ -1549,6 +1549,7 @@
   "farmersdelight:main/master_chef": {
     "criteria": {
       "shepherds_pie": "2025-02-26 00:15:11 +0900",
+      "pasta_with_meatballs": "2025-02-26 00:45:49 +0900",
       "steak_and_potatoes": "2025-02-24 21:04:40 +0900",
       "vegetable_noodles": "2025-02-24 23:50:13 +0900",
       "stuffed_pumpkin": "2025-02-25 23:34:43 +0900",
@@ -2267,21 +2268,33 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/stone_bricks": {
-    "criteria": {
-      "has_stone": "2025-02-25 22:34:33 +0900"
-    },
-    "done": true
-  },
   "minecraft:husbandry/allay_deliver_item_to_player": {
     "criteria": {
       "allay_deliver_item_to_player": "2025-02-25 21:26:09 +0900"
     },
     "done": true
   },
+  "minecraft:story/enchant_item": {
+    "criteria": {
+      "enchanted_item": "2025-02-25 21:36:15 +0900"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/fletching_table": {
     "criteria": {
       "has_flint": "2025-02-25 21:48:31 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/flint_and_steel": {
+    "criteria": {
+      "has_flint": "2025-02-25 21:48:31 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_bricks": {
+    "criteria": {
+      "has_stone": "2025-02-25 22:34:33 +0900"
     },
     "done": true
   },
@@ -2300,18 +2313,6 @@
   "minecraft:recipes/building_blocks/stone_stairs_from_stone_stonecutting": {
     "criteria": {
       "has_stone": "2025-02-25 22:34:33 +0900"
-    },
-    "done": true
-  },
-  "minecraft:story/enchant_item": {
-    "criteria": {
-      "enchanted_item": "2025-02-25 21:36:15 +0900"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/red_dye_from_poppy": {
-    "criteria": {
-      "has_poppy": "2025-02-26 00:21:30 +0900"
     },
     "done": true
   },
@@ -2339,21 +2340,9 @@
     },
     "done": true
   },
-  "farmersdelight:recipes/cooking/apple_cider": {
-    "criteria": {
-      "has_apple": "2025-02-26 00:20:00 +0900"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/stone_brick_walls_from_stone_stonecutting": {
     "criteria": {
       "has_stone": "2025-02-25 22:34:33 +0900"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/light_blue_dye_from_blue_orchid": {
-    "criteria": {
-      "has_blue_orchid": "2025-02-26 00:21:43 +0900"
     },
     "done": true
   },
@@ -2375,13 +2364,13 @@
     },
     "done": true
   },
-  "minecraft:recipes/tools/flint_and_steel": {
+  "minecraft:recipes/building_blocks/chiseled_stone_bricks_stone_from_stonecutting": {
     "criteria": {
-      "has_flint": "2025-02-25 21:48:31 +0900"
+      "has_stone": "2025-02-25 22:34:33 +0900"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/chiseled_stone_bricks_stone_from_stonecutting": {
+  "minecraft:recipes/building_blocks/stone_stairs": {
     "criteria": {
       "has_stone": "2025-02-25 22:34:33 +0900"
     },
@@ -2393,9 +2382,33 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/stone_stairs": {
+  "farmersdelight:recipes/cooking/apple_cider": {
     "criteria": {
-      "has_stone": "2025-02-25 22:34:33 +0900"
+      "has_apple": "2025-02-26 00:20:00 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/red_dye_from_poppy": {
+    "criteria": {
+      "has_poppy": "2025-02-26 00:21:30 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/light_blue_dye_from_blue_orchid": {
+    "criteria": {
+      "has_blue_orchid": "2025-02-26 00:21:43 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/red_dye_from_rose_bush": {
+    "criteria": {
+      "has_rose_bush": "2025-02-26 00:47:52 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/light_gray_dye_from_white_tulip": {
+    "criteria": {
+      "has_white_tulip": "2025-02-26 00:47:44 +0900"
     },
     "done": true
   },
