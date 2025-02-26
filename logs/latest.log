@@ -1,35 +1,34 @@
-[262��2025 00:32:03.550] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.2.4, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
-[262��2025 00:32:03.556] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.12 by Oracle Corporation; OS Windows 10 arch amd64 version 10.0
-[262��2025 00:32:03.993] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
-[262��2025 00:32:04.062] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/eniro/OneDrive/Desktop/���Ѱ�/Minecraft/Server/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
-[262��2025 00:32:04.385] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\eniro\OneDrive\Desktop\���Ѱ�\Minecraft\Server\libraries\net\minecraftforge\fmlcore\1.20.1-47.2.4\fmlcore-1.20.1-47.2.4.jar is missing mods.toml file
-[262��2025 00:32:04.393] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\eniro\OneDrive\Desktop\���Ѱ�\Minecraft\Server\libraries\net\minecraftforge\javafmllanguage\1.20.1-47.2.4\javafmllanguage-1.20.1-47.2.4.jar is missing mods.toml file
-[262��2025 00:32:04.399] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\eniro\OneDrive\Desktop\���Ѱ�\Minecraft\Server\libraries\net\minecraftforge\lowcodelanguage\1.20.1-47.2.4\lowcodelanguage-1.20.1-47.2.4.jar is missing mods.toml file
-[262��2025 00:32:04.405] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\eniro\OneDrive\Desktop\���Ѱ�\Minecraft\Server\libraries\net\minecraftforge\mclanguage\1.20.1-47.2.4\mclanguage-1.20.1-47.2.4.jar is missing mods.toml file
-[262��2025 00:32:04.565] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 3 dependencies adding them to mods collection
-[262��2025 00:32:05.854] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[262��2025 00:32:05.884] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
-[262��2025 00:32:06.262] [main/INFO] [ModernFix/]: Loaded configuration file for ModernFix 5.19.7+mc1.20.1: 84 options available, 0 override(s) found
-[262��2025 00:32:06.263] [main/INFO] [ModernFix/]: Applying Nashorn fix
-[262��2025 00:32:06.275] [main/INFO] [ModernFix/]: Applied Forge config corruption patch
-[262��2025 00:32:06.652] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/gui/screens/social/SocialInteractionsPlayerList (java.lang.ClassNotFoundException: net.minecraft.client.gui.screens.social.SocialInteractionsPlayerList)
-[262��2025 00:32:06.653] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.gui.screens.social.SocialInteractionsPlayerList was not found sebsarchaeology.mixins.json:mixins.SocialInteractionsPlayerListMixin
-[262��2025 00:32:06.814] [main/INFO] [memoryleakfix/]: [MemoryLeakFix] Will be applying 1 memory leak fixes!
-[262��2025 00:32:06.815] [main/INFO] [memoryleakfix/]: [MemoryLeakFix] Currently enabled memory leak fixes: [biomeTemperatureLeak]
-[262��2025 00:32:06.878] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via ca.fxco.memoryleakfix.mixinextras.service.MixinExtrasServiceImpl(version=0.3.2).
-[262��2025 00:32:08.784] [main/INFO] [net.minecraft.server.Bootstrap/]: ModernFix reached bootstrap stage (8.889 s after launch)
-[262��2025 00:32:08.891] [main/WARN] [mixin/]: @Final field delegatesByName:Ljava/util/Map; in modernfix-forge.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
-[262��2025 00:32:08.892] [main/WARN] [mixin/]: @Final field delegatesByValue:Ljava/util/Map; in modernfix-forge.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
-[262��2025 00:32:09.912] [main/INFO] [net.minecraft.server.Bootstrap/]: Vanilla bootstrap took 1123 milliseconds
-[262��2025 00:32:13.064] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.2.4, for MC 1.20.1 with MCP 20230612.114412
-[262��2025 00:32:13.066] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.2.4 Initialized
-[262��2025 00:32:16.623] [modloading-worker-0/INFO] [com.enironir.sebsfoodcore.FoodCore/]: HELLO FROM COMMON SETUP
-[262��2025 00:32:16.624] [modloading-worker-0/INFO] [com.enironir.sebsfoodcore.FoodCore/]: DIRT BLOCK >> minecraft:dirt
-[262��2025 00:32:16.626] [modloading-worker-0/INFO] [com.enironir.sebsfoodcore.FoodCore/]: The magic number is... 42
-[262��2025 00:32:16.628] [modloading-worker-0/INFO] [com.enironir.sebsfoodcore.FoodCore/]: ITEM >> iron_ingot
-[262��2025 00:32:16.936] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[262��2025 00:32:17.374] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.2.4 Target: 47.3.0
-[262��2025 00:32:17.543] [modloading-worker-0/INFO] [de.mennomax.astikorcarts.AstikorCarts/]: Automatic pull animal configuration:
+[26Feb2025 07:33:46.811] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.2.4, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
+[26Feb2025 07:33:46.819] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.14 by Ubuntu; OS Linux arch amd64 version 6.8.0-1021-aws
+[26Feb2025 07:33:47.278] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[26Feb2025 07:33:47.372] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/home/ubuntu/Server/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[26Feb2025 07:33:47.965] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /home/ubuntu/Server/libraries/net/minecraftforge/fmlcore/1.20.1-47.2.4/fmlcore-1.20.1-47.2.4.jar is missing mods.toml file
+[26Feb2025 07:33:47.968] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /home/ubuntu/Server/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.2.4/javafmllanguage-1.20.1-47.2.4.jar is missing mods.toml file
+[26Feb2025 07:33:47.972] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /home/ubuntu/Server/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.2.4/lowcodelanguage-1.20.1-47.2.4.jar is missing mods.toml file
+[26Feb2025 07:33:47.975] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /home/ubuntu/Server/libraries/net/minecraftforge/mclanguage/1.20.1-47.2.4/mclanguage-1.20.1-47.2.4.jar is missing mods.toml file
+[26Feb2025 07:33:48.230] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 3 dependencies adding them to mods collection
+[26Feb2025 07:33:52.007] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[26Feb2025 07:33:52.174] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
+[26Feb2025 07:33:52.805] [main/INFO] [ModernFix/]: Loaded configuration file for ModernFix 5.19.7+mc1.20.1: 84 options available, 0 override(s) found
+[26Feb2025 07:33:52.809] [main/INFO] [ModernFix/]: Applying Nashorn fix
+[26Feb2025 07:33:52.844] [main/INFO] [ModernFix/]: Applied Forge config corruption patch
+[26Feb2025 07:33:54.107] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/gui/screens/social/SocialInteractionsPlayerList (java.lang.ClassNotFoundException: net.minecraft.client.gui.screens.social.SocialInteractionsPlayerList)
+[26Feb2025 07:33:54.108] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.gui.screens.social.SocialInteractionsPlayerList was not found sebsarchaeology.mixins.json:mixins.SocialInteractionsPlayerListMixin
+[26Feb2025 07:33:54.692] [main/INFO] [memoryleakfix/]: [MemoryLeakFix] Will be applying 1 memory leak fixes!
+[26Feb2025 07:33:54.693] [main/INFO] [memoryleakfix/]: [MemoryLeakFix] Currently enabled memory leak fixes: [biomeTemperatureLeak]
+[26Feb2025 07:33:54.903] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via ca.fxco.memoryleakfix.mixinextras.service.MixinExtrasServiceImpl(version=0.3.2).
+[26Feb2025 07:33:57.925] [main/INFO] [net.minecraft.server.Bootstrap/]: ModernFix reached bootstrap stage (15.86 s after launch)
+[26Feb2025 07:33:58.276] [main/WARN] [mixin/]: @Final field delegatesByName:Ljava/util/Map; in modernfix-forge.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
+[26Feb2025 07:33:58.278] [main/WARN] [mixin/]: @Final field delegatesByValue:Ljava/util/Map; in modernfix-forge.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
+[26Feb2025 07:34:00.669] [main/INFO] [net.minecraft.server.Bootstrap/]: Vanilla bootstrap took 2737 milliseconds
+[26Feb2025 07:34:07.566] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.2.4, for MC 1.20.1 with MCP 20230612.114412
+[26Feb2025 07:34:07.569] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.2.4 Initialized
+[26Feb2025 07:34:11.558] [modloading-worker-0/INFO] [com.enironir.sebsfoodcore.FoodCore/]: HELLO FROM COMMON SETUP
+[26Feb2025 07:34:11.558] [modloading-worker-0/INFO] [com.enironir.sebsfoodcore.FoodCore/]: DIRT BLOCK >> minecraft:dirt
+[26Feb2025 07:34:11.559] [modloading-worker-0/INFO] [com.enironir.sebsfoodcore.FoodCore/]: The magic number is... 42
+[26Feb2025 07:34:11.559] [modloading-worker-0/INFO] [com.enironir.sebsfoodcore.FoodCore/]: ITEM >> iron_ingot
+[26Feb2025 07:34:11.958] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[26Feb2025 07:34:12.842] [modloading-worker-0/INFO] [de.mennomax.astikorcarts.AstikorCarts/]: Automatic pull animal configuration:
 pull_animals = [
     "minecraft:camel",
     "minecraft:donkey",
@@ -39,113 +38,14 @@ pull_animals = [
     "minecraft:zombie_horse",
     "minecraft:player"
   ]
-[262��2025 00:32:18.108] [main/WARN] [net.minecraft.server.dedicated.DedicatedServerProperties/]: You specified a resource pack without providing a sha1 hash. Pack will be updated on the client only if you change the name of the pack.
-[262��2025 00:32:18.135] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[262��2025 00:32:18.235] [main/INFO] [ModernFix/]: Bypassed Mojang DFU
-[262��2025 00:32:18.415] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/eniro/OneDrive/Desktop/���Ѱ�/Minecraft/Server/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23131!/assets/.mcassetsroot' uses unexpected schema
-[262��2025 00:32:18.415] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/eniro/OneDrive/Desktop/���Ѱ�/Minecraft/Server/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23131!/data/.mcassetsroot' uses unexpected schema
-[262��2025 00:32:19.621] [main/INFO] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Adding datapack listener capsid_recipes
-[262��2025 00:32:19.772] [Worker-Main-5/ERROR] [net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener/]: Couldn't parse data file minecraft:beetroot_soup from minecraft:recipes/beetroot_soup.json
-com.google.gson.JsonParseException: java.io.EOFException: End of input at line 1 column 1 path $
-	at net.minecraft.util.GsonHelper.m_13780_(GsonHelper.java:526) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at net.minecraft.util.GsonHelper.m_263475_(GsonHelper.java:531) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at net.minecraft.util.GsonHelper.m_13776_(GsonHelper.java:581) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener.m_278771_(SimpleJsonResourceReloadListener.java:41) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener.m_5944_(SimpleJsonResourceReloadListener.java:29) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener.m_5944_(SimpleJsonResourceReloadListener.java:17) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10786_(SimplePreparableReloadListener.java:11) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
-	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
-	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
-	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
-	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
-	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
-	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
-Caused by: java.io.EOFException: End of input at line 1 column 1 path $
-	at com.google.gson.stream.JsonReader.nextNonWhitespace(JsonReader.java:1455) ~[gson-2.10.jar%2372!/:?]
-	at com.google.gson.stream.JsonReader.doPeek(JsonReader.java:558) ~[gson-2.10.jar%2372!/:?]
-	at com.google.gson.stream.JsonReader.peek(JsonReader.java:433) ~[gson-2.10.jar%2372!/:?]
-	at com.google.gson.internal.bind.TypeAdapters$28.read(TypeAdapters.java:769) ~[gson-2.10.jar%2372!/:?]
-	at com.google.gson.internal.bind.TypeAdapters$28.read(TypeAdapters.java:725) ~[gson-2.10.jar%2372!/:?]
-	at com.google.gson.internal.bind.TypeAdapters$34$1.read(TypeAdapters.java:1007) ~[gson-2.10.jar%2372!/:?]
-	at net.minecraft.util.GsonHelper.m_13780_(GsonHelper.java:524) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	... 13 more
-[262��2025 00:32:19.872] [Worker-Main-5/ERROR] [net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener/]: Couldn't parse data file minecraft:mushroom_stew from minecraft:recipes/mushroom_stew.json
-com.google.gson.JsonParseException: java.io.EOFException: End of input at line 1 column 1 path $
-	at net.minecraft.util.GsonHelper.m_13780_(GsonHelper.java:526) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at net.minecraft.util.GsonHelper.m_263475_(GsonHelper.java:531) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at net.minecraft.util.GsonHelper.m_13776_(GsonHelper.java:581) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener.m_278771_(SimpleJsonResourceReloadListener.java:41) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener.m_5944_(SimpleJsonResourceReloadListener.java:29) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener.m_5944_(SimpleJsonResourceReloadListener.java:17) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10786_(SimplePreparableReloadListener.java:11) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
-	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
-	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
-	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
-	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
-	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
-	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
-Caused by: java.io.EOFException: End of input at line 1 column 1 path $
-	at com.google.gson.stream.JsonReader.nextNonWhitespace(JsonReader.java:1455) ~[gson-2.10.jar%2372!/:?]
-	at com.google.gson.stream.JsonReader.doPeek(JsonReader.java:558) ~[gson-2.10.jar%2372!/:?]
-	at com.google.gson.stream.JsonReader.peek(JsonReader.java:433) ~[gson-2.10.jar%2372!/:?]
-	at com.google.gson.internal.bind.TypeAdapters$28.read(TypeAdapters.java:769) ~[gson-2.10.jar%2372!/:?]
-	at com.google.gson.internal.bind.TypeAdapters$28.read(TypeAdapters.java:725) ~[gson-2.10.jar%2372!/:?]
-	at com.google.gson.internal.bind.TypeAdapters$34$1.read(TypeAdapters.java:1007) ~[gson-2.10.jar%2372!/:?]
-	at net.minecraft.util.GsonHelper.m_13780_(GsonHelper.java:524) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	... 13 more
-[262��2025 00:32:19.888] [Worker-Main-5/ERROR] [net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener/]: Couldn't parse data file minecraft:rabbit_stew_from_brown_mushroom from minecraft:recipes/rabbit_stew_from_brown_mushroom.json
-com.google.gson.JsonParseException: java.io.EOFException: End of input at line 1 column 1 path $
-	at net.minecraft.util.GsonHelper.m_13780_(GsonHelper.java:526) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at net.minecraft.util.GsonHelper.m_263475_(GsonHelper.java:531) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at net.minecraft.util.GsonHelper.m_13776_(GsonHelper.java:581) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener.m_278771_(SimpleJsonResourceReloadListener.java:41) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener.m_5944_(SimpleJsonResourceReloadListener.java:29) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener.m_5944_(SimpleJsonResourceReloadListener.java:17) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10786_(SimplePreparableReloadListener.java:11) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
-	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
-	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
-	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
-	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
-	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
-	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
-Caused by: java.io.EOFException: End of input at line 1 column 1 path $
-	at com.google.gson.stream.JsonReader.nextNonWhitespace(JsonReader.java:1455) ~[gson-2.10.jar%2372!/:?]
-	at com.google.gson.stream.JsonReader.doPeek(JsonReader.java:558) ~[gson-2.10.jar%2372!/:?]
-	at com.google.gson.stream.JsonReader.peek(JsonReader.java:433) ~[gson-2.10.jar%2372!/:?]
-	at com.google.gson.internal.bind.TypeAdapters$28.read(TypeAdapters.java:769) ~[gson-2.10.jar%2372!/:?]
-	at com.google.gson.internal.bind.TypeAdapters$28.read(TypeAdapters.java:725) ~[gson-2.10.jar%2372!/:?]
-	at com.google.gson.internal.bind.TypeAdapters$34$1.read(TypeAdapters.java:1007) ~[gson-2.10.jar%2372!/:?]
-	at net.minecraft.util.GsonHelper.m_13780_(GsonHelper.java:524) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	... 13 more
-[262��2025 00:32:19.890] [Worker-Main-5/ERROR] [net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener/]: Couldn't parse data file minecraft:rabbit_stew_from_red_mushroom from minecraft:recipes/rabbit_stew_from_red_mushroom.json
-com.google.gson.JsonParseException: java.io.EOFException: End of input at line 1 column 1 path $
-	at net.minecraft.util.GsonHelper.m_13780_(GsonHelper.java:526) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at net.minecraft.util.GsonHelper.m_263475_(GsonHelper.java:531) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at net.minecraft.util.GsonHelper.m_13776_(GsonHelper.java:581) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener.m_278771_(SimpleJsonResourceReloadListener.java:41) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener.m_5944_(SimpleJsonResourceReloadListener.java:29) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener.m_5944_(SimpleJsonResourceReloadListener.java:17) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10786_(SimplePreparableReloadListener.java:11) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
-	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
-	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
-	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
-	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
-	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
-	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
-Caused by: java.io.EOFException: End of input at line 1 column 1 path $
-	at com.google.gson.stream.JsonReader.nextNonWhitespace(JsonReader.java:1455) ~[gson-2.10.jar%2372!/:?]
-	at com.google.gson.stream.JsonReader.doPeek(JsonReader.java:558) ~[gson-2.10.jar%2372!/:?]
-	at com.google.gson.stream.JsonReader.peek(JsonReader.java:433) ~[gson-2.10.jar%2372!/:?]
-	at com.google.gson.internal.bind.TypeAdapters$28.read(TypeAdapters.java:769) ~[gson-2.10.jar%2372!/:?]
-	at com.google.gson.internal.bind.TypeAdapters$28.read(TypeAdapters.java:725) ~[gson-2.10.jar%2372!/:?]
-	at com.google.gson.internal.bind.TypeAdapters$34$1.read(TypeAdapters.java:1007) ~[gson-2.10.jar%2372!/:?]
-	at net.minecraft.util.GsonHelper.m_13780_(GsonHelper.java:524) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	... 13 more
-[262��2025 00:32:20.037] [Worker-Main-4/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:culturaldelights:blocks/exotic_roll_medley_block
+[26Feb2025 07:34:13.100] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.2.4 Target: 47.3.0
+[26Feb2025 07:34:13.501] [main/WARN] [net.minecraft.server.dedicated.DedicatedServerProperties/]: You specified a resource pack without providing a sha1 hash. Pack will be updated on the client only if you change the name of the pack.
+[26Feb2025 07:34:13.532] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[26Feb2025 07:34:13.762] [main/INFO] [ModernFix/]: Bypassed Mojang DFU
+[26Feb2025 07:34:14.260] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/home/ubuntu/Server/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23131!/assets/.mcassetsroot' uses unexpected schema
+[26Feb2025 07:34:14.261] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/home/ubuntu/Server/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23131!/data/.mcassetsroot' uses unexpected schema
+[26Feb2025 07:34:17.254] [main/INFO] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Adding datapack listener capsid_recipes
+[26Feb2025 07:34:18.358] [Worker-Main-1/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:culturaldelights:blocks/exotic_roll_medley_block
 com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'culturaldelights:exotic_roll_medley_block'
 	at net.minecraft.util.GsonHelper.m_13866_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -197,7 +97,7 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
-[262��2025 00:32:20.053] [Worker-Main-4/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:culturaldelights:blocks/avocado_leaf_carpet
+[26Feb2025 07:34:18.371] [Worker-Main-1/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:culturaldelights:blocks/avocado_leaf_carpet
 com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'culturaldelights:avocado_leaf_carpet'
 	at net.minecraft.util.GsonHelper.m_13866_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -249,7 +149,7 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
-[262��2025 00:32:20.079] [Worker-Main-4/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:culturaldelights:blocks/avocado_leaves
+[26Feb2025 07:34:18.487] [Worker-Main-1/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:culturaldelights:blocks/avocado_leaves
 com.google.gson.JsonSyntaxException: Unknown type 'minecraft:alternative'
 	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:99) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
 	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
@@ -317,7 +217,7 @@ com.google.gson.JsonSyntaxException: Unknown type 'minecraft:alternative'
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
-[262��2025 00:32:20.085] [Worker-Main-4/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:culturaldelights:blocks/avocado_bundle
+[26Feb2025 07:34:18.503] [Worker-Main-1/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:culturaldelights:blocks/avocado_bundle
 com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'culturaldelights:avocado_bundle'
 	at net.minecraft.util.GsonHelper.m_13866_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -383,7 +283,7 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
-[262��2025 00:32:20.132] [Worker-Main-4/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:culturaldelights:blocks/fruiting_avocado_leaves
+[26Feb2025 07:34:18.637] [Worker-Main-1/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:culturaldelights:blocks/fruiting_avocado_leaves
 com.google.gson.JsonSyntaxException: Unknown type 'minecraft:alternative'
 	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:99) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
 	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
@@ -451,40 +351,568 @@ com.google.gson.JsonSyntaxException: Unknown type 'minecraft:alternative'
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
-[262��2025 00:32:20.243] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe culturaldelights:fermenting/pickle: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'brewinandchewin:fermenting'
-[262��2025 00:32:20.260] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 10 recipes
-[262��2025 00:32:20.344] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1592 advancements
-[262��2025 00:32:20.353] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 10 curio slots
-[262��2025 00:32:20.356] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 1 curio entities
-[262��2025 00:32:21.268] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
-[262��2025 00:32:21.268] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[262��2025 00:32:21.270] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[262��2025 00:32:21.271] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[262��2025 00:32:21.407] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[262��2025 00:32:21.424] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using default channel type
-[262��2025 00:32:21.654] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "Sebs-Server-World"
-[262��2025 00:32:21.958] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[262��2025 00:32:22.259] [Netty Server IO #2/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
-[262��2025 00:32:22.260] [Netty Server IO #1/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
-[262��2025 00:32:23.446] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[262��2025 00:32:23.446] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[262��2025 00:32:23.447] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[262��2025 00:32:23.459] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[262��2025 00:32:24.042] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 2084 ms
-[262��2025 00:32:24.043] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (2.454s)! For help, type "help"
-[262��2025 00:32:24.066] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[262��2025 00:32:24.066] [Server thread/INFO] [com.enironir.sebsfoodcore.FoodCore/]: HELLO from server starting
-[262��2025 00:32:24.067] [Server thread/WARN] [ModernFix/]: Dedicated server took 24.173 seconds to load
-[262��2025 00:32:27.353] [User Authenticator #1/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player wny2463 is 52a3e9dd-43f3-40bd-b304-d10bd8eb6782
-[262��2025 00:32:28.466] [User Authenticator #2/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player OmIette is 00463deb-fd8d-429a-a8bf-2924e94357f5
-[262��2025 00:32:29.897] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: OmIette[/116.127.133.223:50982] logged in with entity id 164 at (-637.5720048411584, 147.0, 504.3364254542355)
-[262��2025 00:32:29.962] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [�ʺ���] ���� joined the game
-[262��2025 00:32:32.232] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: wny2463[/61.32.73.194:51781] logged in with entity id 434 at (-565.5418992917145, 173.0, 322.6497646066835)
-[262��2025 00:32:32.238] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [�ʺ���] ���� joined the game
-[262��2025 00:36:58.248] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [�ʺ���] ���� has made the advancement [What a Deal!]
-[262��2025 00:51:42.593] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [�ʺ���] ���� has made the advancement [A Seedy Place]
-[262��2025 01:01:59.439] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <[�ʺ���] ����> ���̳��ֹ���
-[262��2025 01:16:06.601] [Server thread/ERROR] [net.minecraft.network.protocol.PacketUtils/]: Failed to handle packet net.minecraft.network.protocol.game.ServerboundUseItemPacket@33c138b5, suppressing error
+[26Feb2025 07:34:18.700] [Worker-Main-1/ERROR] [net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener/]: Couldn't parse data file minecraft:beetroot_soup from minecraft:recipes/beetroot_soup.json
+com.google.gson.JsonParseException: java.io.EOFException: End of input at line 1 column 1 path $
+	at net.minecraft.util.GsonHelper.m_13780_(GsonHelper.java:526) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
+	at net.minecraft.util.GsonHelper.m_263475_(GsonHelper.java:531) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
+	at net.minecraft.util.GsonHelper.m_13776_(GsonHelper.java:581) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
+	at net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener.m_278771_(SimpleJsonResourceReloadListener.java:41) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
+	at net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener.m_5944_(SimpleJsonResourceReloadListener.java:29) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
+	at net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener.m_5944_(SimpleJsonResourceReloadListener.java:17) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10786_(SimplePreparableReloadListener.java:11) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+Caused by: java.io.EOFException: End of input at line 1 column 1 path $
+	at com.google.gson.stream.JsonReader.nextNonWhitespace(JsonReader.java:1455) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.stream.JsonReader.doPeek(JsonReader.java:558) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.stream.JsonReader.peek(JsonReader.java:433) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapters$28.read(TypeAdapters.java:769) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapters$28.read(TypeAdapters.java:725) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapters$34$1.read(TypeAdapters.java:1007) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13780_(GsonHelper.java:524) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
+	... 13 more
+[26Feb2025 07:34:18.783] [Worker-Main-1/ERROR] [net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener/]: Couldn't parse data file minecraft:mushroom_stew from minecraft:recipes/mushroom_stew.json
+com.google.gson.JsonParseException: java.io.EOFException: End of input at line 1 column 1 path $
+	at net.minecraft.util.GsonHelper.m_13780_(GsonHelper.java:526) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
+	at net.minecraft.util.GsonHelper.m_263475_(GsonHelper.java:531) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
+	at net.minecraft.util.GsonHelper.m_13776_(GsonHelper.java:581) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
+	at net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener.m_278771_(SimpleJsonResourceReloadListener.java:41) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
+	at net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener.m_5944_(SimpleJsonResourceReloadListener.java:29) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
+	at net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener.m_5944_(SimpleJsonResourceReloadListener.java:17) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10786_(SimplePreparableReloadListener.java:11) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+Caused by: java.io.EOFException: End of input at line 1 column 1 path $
+	at com.google.gson.stream.JsonReader.nextNonWhitespace(JsonReader.java:1455) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.stream.JsonReader.doPeek(JsonReader.java:558) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.stream.JsonReader.peek(JsonReader.java:433) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapters$28.read(TypeAdapters.java:769) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapters$28.read(TypeAdapters.java:725) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapters$34$1.read(TypeAdapters.java:1007) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13780_(GsonHelper.java:524) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
+	... 13 more
+[26Feb2025 07:34:18.802] [Worker-Main-1/ERROR] [net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener/]: Couldn't parse data file minecraft:rabbit_stew_from_brown_mushroom from minecraft:recipes/rabbit_stew_from_brown_mushroom.json
+com.google.gson.JsonParseException: java.io.EOFException: End of input at line 1 column 1 path $
+	at net.minecraft.util.GsonHelper.m_13780_(GsonHelper.java:526) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
+	at net.minecraft.util.GsonHelper.m_263475_(GsonHelper.java:531) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
+	at net.minecraft.util.GsonHelper.m_13776_(GsonHelper.java:581) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
+	at net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener.m_278771_(SimpleJsonResourceReloadListener.java:41) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
+	at net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener.m_5944_(SimpleJsonResourceReloadListener.java:29) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
+	at net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener.m_5944_(SimpleJsonResourceReloadListener.java:17) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10786_(SimplePreparableReloadListener.java:11) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+Caused by: java.io.EOFException: End of input at line 1 column 1 path $
+	at com.google.gson.stream.JsonReader.nextNonWhitespace(JsonReader.java:1455) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.stream.JsonReader.doPeek(JsonReader.java:558) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.stream.JsonReader.peek(JsonReader.java:433) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapters$28.read(TypeAdapters.java:769) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapters$28.read(TypeAdapters.java:725) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapters$34$1.read(TypeAdapters.java:1007) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13780_(GsonHelper.java:524) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
+	... 13 more
+[26Feb2025 07:34:18.804] [Worker-Main-1/ERROR] [net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener/]: Couldn't parse data file minecraft:rabbit_stew_from_red_mushroom from minecraft:recipes/rabbit_stew_from_red_mushroom.json
+com.google.gson.JsonParseException: java.io.EOFException: End of input at line 1 column 1 path $
+	at net.minecraft.util.GsonHelper.m_13780_(GsonHelper.java:526) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
+	at net.minecraft.util.GsonHelper.m_263475_(GsonHelper.java:531) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
+	at net.minecraft.util.GsonHelper.m_13776_(GsonHelper.java:581) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
+	at net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener.m_278771_(SimpleJsonResourceReloadListener.java:41) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
+	at net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener.m_5944_(SimpleJsonResourceReloadListener.java:29) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
+	at net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener.m_5944_(SimpleJsonResourceReloadListener.java:17) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10786_(SimplePreparableReloadListener.java:11) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+Caused by: java.io.EOFException: End of input at line 1 column 1 path $
+	at com.google.gson.stream.JsonReader.nextNonWhitespace(JsonReader.java:1455) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.stream.JsonReader.doPeek(JsonReader.java:558) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.stream.JsonReader.peek(JsonReader.java:433) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapters$28.read(TypeAdapters.java:769) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapters$28.read(TypeAdapters.java:725) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapters$34$1.read(TypeAdapters.java:1007) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13780_(GsonHelper.java:524) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
+	... 13 more
+[26Feb2025 07:34:19.599] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe culturaldelights:fermenting/pickle: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'brewinandchewin:fermenting'
+[26Feb2025 07:34:19.653] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 10 recipes
+[26Feb2025 07:34:19.968] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1592 advancements
+[26Feb2025 07:34:19.994] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 10 curio slots
+[26Feb2025 07:34:20.002] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 1 curio entities
+[26Feb2025 07:34:20.239] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[26Feb2025 07:34:20.239] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[26Feb2025 07:34:20.240] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[26Feb2025 07:34:20.240] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[26Feb2025 07:34:20.461] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[26Feb2025 07:34:20.526] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[26Feb2025 07:34:20.911] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "Sebs-Server-World"
+[26Feb2025 07:34:21.797] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[26Feb2025 07:34:28.709] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26Feb2025 07:34:28.711] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26Feb2025 07:34:28.712] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26Feb2025 07:34:28.713] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26Feb2025 07:34:28.714] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26Feb2025 07:34:28.716] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26Feb2025 07:34:28.716] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26Feb2025 07:34:28.717] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26Feb2025 07:34:28.717] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26Feb2025 07:34:28.720] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26Feb2025 07:34:28.720] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26Feb2025 07:34:28.721] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26Feb2025 07:34:28.721] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26Feb2025 07:34:28.722] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26Feb2025 07:34:28.799] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26Feb2025 07:34:29.358] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26Feb2025 07:34:29.799] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26Feb2025 07:34:30.787] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 8989 ms
+[26Feb2025 07:34:30.790] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (10.098s)! For help, type "help"
+[26Feb2025 07:34:30.833] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[26Feb2025 07:34:30.835] [Server thread/INFO] [com.enironir.sebsfoodcore.FoodCore/]: HELLO from server starting
+[26Feb2025 07:34:30.838] [Server thread/WARN] [ModernFix/]: Dedicated server took 48.774 seconds to load
+[26Feb2025 07:35:00.406] [User Authenticator #1/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player ReumReumBR is d2dd74d9-5422-47e6-bbc2-f992d586284e
+[26Feb2025 07:35:02.168] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: ReumReumBR[/221.158.99.230:53742] logged in with entity id 164 at (-634.3000000119209, -54.0, 790.6999999880791)
+[26Feb2025 07:35:02.331] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [개척자] 선아 joined the game
+[26Feb2025 07:53:53.317] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [개척자] 선아 has made the advancement [Cover Me with Diamonds]
+[26Feb2025 08:07:30.761] [User Authenticator #2/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player OmIette is 00463deb-fd8d-429a-a8bf-2924e94357f5
+[26Feb2025 08:07:32.167] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: OmIette[/116.127.133.223:55050] logged in with entity id 5530 at (-648.1486263218826, 146.0, 501.8313660813041)
+[26Feb2025 08:07:32.192] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [초보자] 성현 joined the game
+[26Feb2025 08:07:47.773] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <[개척자] 선아> 안녕하십니까
+[26Feb2025 08:10:45.510] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ReumReumBR lost connection: Disconnected
+[26Feb2025 08:10:45.511] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [개척자] 선아 left the game
+[26Feb2025 08:10:59.879] [User Authenticator #3/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player ReumReumBR is d2dd74d9-5422-47e6-bbc2-f992d586284e
+[26Feb2025 08:11:01.385] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: ReumReumBR[/221.158.99.230:53862] logged in with entity id 6032 at (-633.7066348563177, 152.0, 508.6166450976731)
+[26Feb2025 08:11:01.393] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [개척자] 선아 joined the game
+[26Feb2025 08:38:26.220] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: OmIette lost connection: Disconnected
+[26Feb2025 08:38:26.220] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [초보자] 성현 left the game
+[26Feb2025 08:38:48.305] [User Authenticator #4/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player OmIette is 00463deb-fd8d-429a-a8bf-2924e94357f5
+[26Feb2025 08:38:49.679] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: OmIette[/116.127.133.223:55284] logged in with entity id 14304 at (-11.253839569244695, -54.0, 774.2708044308472)
+[26Feb2025 08:38:49.686] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [초보자] 성현 joined the game
+[26Feb2025 08:39:05.620] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <[개척자] 선아> good
+[26Feb2025 08:39:08.927] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <[초보자] 성현> zzzz
+[26Feb2025 08:40:53.571] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [개척자] 선아 has made the advancement [Sneak 100]
+[26Feb2025 08:41:20.069] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ReumReumBR lost connection: Disconnected
+[26Feb2025 08:41:20.069] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [개척자] 선아 left the game
+[26Feb2025 08:42:26.235] [User Authenticator #5/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player ReumReumBR is d2dd74d9-5422-47e6-bbc2-f992d586284e
+[26Feb2025 08:42:27.682] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: ReumReumBR[/221.158.99.230:53925] logged in with entity id 15689 at (-749.5192954449094, 8.0, 577.3997261042789)
+[26Feb2025 08:42:27.696] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [개척자] 선아 joined the game
+[26Feb2025 08:44:36.521] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-738, y=2, z=553} BlockPos{x=-738, y=1, z=553}
+[26Feb2025 08:44:56.269] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-746, y=4, z=539} BlockPos{x=-745, y=3, z=540}
+[26Feb2025 08:47:06.779] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-769, y=17, z=545} BlockPos{x=-770, y=17, z=544}
+[26Feb2025 08:47:22.027] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-766, y=11, z=541} BlockPos{x=-765, y=9, z=541}
+[26Feb2025 08:51:45.118] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-747, y=3, z=543} BlockPos{x=-746, y=4, z=543}
+[26Feb2025 08:51:45.170] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-747, y=3, z=543} BlockPos{x=-746, y=4, z=543}
+[26Feb2025 08:51:45.251] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-747, y=3, z=543} BlockPos{x=-746, y=4, z=543}
+[26Feb2025 08:51:45.252] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-747, y=3, z=543} BlockPos{x=-746, y=4, z=543}
+[26Feb2025 08:51:49.621] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-745, y=4, z=553} BlockPos{x=-744, y=4, z=551}
+[26Feb2025 08:51:50.270] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-746, y=4, z=551} BlockPos{x=-746, y=4, z=550}
+[26Feb2025 08:51:50.319] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-746, y=4, z=551} BlockPos{x=-746, y=4, z=550}
+[26Feb2025 08:51:50.369] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-746, y=4, z=551} BlockPos{x=-746, y=4, z=550}
+[26Feb2025 08:51:50.419] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-746, y=4, z=551} BlockPos{x=-746, y=4, z=550}
+[26Feb2025 08:51:50.470] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-746, y=4, z=551} BlockPos{x=-746, y=4, z=550}
+[26Feb2025 08:51:50.527] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-746, y=4, z=551} BlockPos{x=-746, y=4, z=550}
+[26Feb2025 08:52:47.917] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-757, y=8, z=543} BlockPos{x=-756, y=7, z=544}
+[26Feb2025 08:52:48.120] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-757, y=8, z=543} BlockPos{x=-757, y=8, z=544}
+[26Feb2025 08:52:48.168] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-757, y=8, z=543} BlockPos{x=-757, y=8, z=544}
+[26Feb2025 08:52:55.017] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-751, y=5, z=548} BlockPos{x=-753, y=6, z=548}
+[26Feb2025 08:52:55.071] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-751, y=5, z=548} BlockPos{x=-753, y=6, z=548}
+[26Feb2025 08:52:55.117] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-751, y=5, z=548} BlockPos{x=-753, y=6, z=548}
+[26Feb2025 08:54:27.469] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-737, y=2, z=558} BlockPos{x=-737, y=4, z=560}
+[26Feb2025 08:54:53.325] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-750, y=7, z=573} BlockPos{x=-752, y=7, z=571}
+[26Feb2025 08:56:53.267] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-749, y=9, z=582} BlockPos{x=-749, y=8, z=582}
+[26Feb2025 08:56:53.316] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-749, y=9, z=582} BlockPos{x=-749, y=8, z=582}
+[26Feb2025 08:58:51.086] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-738, y=15, z=576} BlockPos{x=-739, y=7, z=582}
+[26Feb2025 08:58:51.121] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-738, y=15, z=576} BlockPos{x=-739, y=7, z=582}
+[26Feb2025 09:00:47.742] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-749, y=18, z=570} BlockPos{x=-748, y=18, z=570}
+[26Feb2025 09:12:41.420] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-763, y=20, z=570} BlockPos{x=-762, y=19, z=570}
+[26Feb2025 09:16:58.671] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-752, y=20, z=566} BlockPos{x=-754, y=19, z=564}
+[26Feb2025 09:17:23.570] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-760, y=17, z=570} BlockPos{x=-759, y=17, z=570}
+[26Feb2025 09:17:23.622] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-760, y=17, z=570} BlockPos{x=-759, y=17, z=570}
+[26Feb2025 09:17:28.980] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-755, y=23, z=578} BlockPos{x=-754, y=21, z=578}
+[26Feb2025 09:23:13.619] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-721, y=24, z=605} BlockPos{x=-723, y=25, z=605}
+[26Feb2025 09:23:22.319] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-727, y=23, z=601} BlockPos{x=-727, y=23, z=603}
+[26Feb2025 09:26:01.769] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-710, y=17, z=607} BlockPos{x=-709, y=18, z=606}
+[26Feb2025 09:26:04.618] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-708, y=10, z=610} BlockPos{x=-709, y=11, z=610}
+[26Feb2025 09:26:05.568] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-706, y=11, z=609} BlockPos{x=-707, y=11, z=610}
+[26Feb2025 09:26:26.970] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-706, y=11, z=608} BlockPos{x=-705, y=11, z=609}
+[26Feb2025 09:26:27.020] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-706, y=11, z=608} BlockPos{x=-705, y=11, z=609}
+[26Feb2025 09:26:33.220] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-707, y=13, z=607} BlockPos{x=-706, y=15, z=606}
+[26Feb2025 09:26:53.569] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-702, y=14, z=605} BlockPos{x=-701, y=14, z=606}
+[26Feb2025 09:26:53.620] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-702, y=14, z=605} BlockPos{x=-701, y=14, z=606}
+[26Feb2025 09:26:53.669] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-702, y=14, z=605} BlockPos{x=-701, y=14, z=606}
+[26Feb2025 09:48:35.267] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [개척자] 선아 has made the advancement [You've Got a Friend in Me]
+[26Feb2025 09:52:05.663] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <[개척자] 선아> sleep
+[26Feb2025 09:52:29.485] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [개척자] 선아 has made the advancement [What a Deal!]
+[26Feb2025 09:53:22.164] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Librarian'/37424, l='ServerLevel[Sebs-Server-World]', x=-491.51, y=132.00, z=-132.49] died, message: 'Librarian was slain by [개척자] 선아'
+[26Feb2025 10:00:03.679] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Cartographer'/37554, l='ServerLevel[Sebs-Server-World]', x=-489.30, y=129.90, z=-140.74] died, message: 'Cartographer was slain by [개척자] 선아'
+[26Feb2025 10:03:27.865] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Librarian'/37423, l='ServerLevel[Sebs-Server-World]', x=-482.87, y=129.90, z=-135.78] died, message: 'Librarian was slain by [개척자] 선아'
+[26Feb2025 10:03:43.764] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Librarian'/37553, l='ServerLevel[Sebs-Server-World]', x=-488.79, y=129.90, z=-133.19] died, message: 'Librarian was slain by [개척자] 선아'
+[26Feb2025 10:06:36.237] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <[초보자] 성현> 저녁드심?
+[26Feb2025 10:06:43.568] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <[초보자] 성현> 밥먹고오느라 못봤네
+[26Feb2025 10:06:50.733] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <[개척자] 선아> 30분 정도에 먹으려고요
+[26Feb2025 10:07:00.518] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <[초보자] 성현> ㅇㅎ
+[26Feb2025 10:25:33.282] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <[개척자] 선아> 디코 끄고 있을게유 배터리때문에
+[26Feb2025 10:25:38.734] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <[초보자] 성현> ㅇㅋ
+[26Feb2025 10:58:38.981] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: OmIette moved too quickly! -628.8496172512492,200.0,-725.9462032858805
+[26Feb2025 10:58:51.028] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <[개척자] 선아> :/
+[26Feb2025 10:59:15.354] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <[개척자] 선아> ㄳ요
+[26Feb2025 10:59:20.085] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <[초보자] 성현> dd
+[26Feb2025 11:03:46.531] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Set the weather to clear
+[26Feb2025 11:08:58.533] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <[개척자] 선아> sleep
+[26Feb2025 11:09:35.664] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <[초보자] 성현> ekaaks
+[26Feb2025 11:15:40.869] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ReumReumBR lost connection: Disconnected
+[26Feb2025 11:15:40.869] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [개척자] 선아 left the game
+[26Feb2025 11:18:48.438] [User Authenticator #6/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player ReumReumBR is d2dd74d9-5422-47e6-bbc2-f992d586284e
+[26Feb2025 11:18:50.129] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: ReumReumBR[/221.158.99.230:61543] logged in with entity id 64736 at (-919.8758860004257, 175.0, -268.04863514060764)
+[26Feb2025 11:18:50.135] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [개척자] 선아 joined the game
+[26Feb2025 11:37:57.945] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [초보자] 성현 has made the advancement [We Need to Go Deeper]
+[26Feb2025 11:42:32.190] [User Authenticator #7/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player wny2463 is 52a3e9dd-43f3-40bd-b304-d10bd8eb6782
+[26Feb2025 11:42:36.490] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: wny2463[/110.46.214.126:53544] logged in with entity id 75423 at (-669.2831131334802, 148.02442408821366, 502.93005959948584)
+[26Feb2025 11:42:36.496] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [초보자] 나연 joined the game
+[26Feb2025 11:45:13.256] [User Authenticator #8/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player Nohahan is 0228dc88-9371-4061-b8e1-1c14fe7a7da0
+[26Feb2025 11:45:14.859] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Nohahan[/116.121.221.160:49530] logged in with entity id 76967 at (-646.9807177344964, 157.0, 502.62566599439464)
+[26Feb2025 11:45:14.929] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [개척자] 한결 joined the game
+[26Feb2025 11:49:19.414] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2024ms or 40 ticks behind
+[26Feb2025 11:50:39.504] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [초보자] 성현 has made the advancement [This Boat Has Legs]
+[26Feb2025 11:51:38.810] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2020ms or 40 ticks behind
+[26Feb2025 11:52:57.713] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2923ms or 58 ticks behind
+[26Feb2025 11:55:45.665] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/68369, l='ServerLevel[Sebs-Server-World]', x=-1584.41, y=107.00, z=-496.50] died, message: 'Villager went up in flames'
+[26Feb2025 11:59:34.005] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Farmer'/68367, l='ServerLevel[Sebs-Server-World]', x=-1593.58, y=107.00, z=-498.61] died, message: 'Farmer went up in flames'
+[26Feb2025 12:01:01.455] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2015ms or 40 ticks behind
+[26Feb2025 12:01:18.067] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Nitwit'/68368, l='ServerLevel[Sebs-Server-World]', x=-1584.41, y=107.00, z=-492.51] died, message: 'Nitwit went up in flames'
+[26Feb2025 12:01:21.125] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2035ms or 40 ticks behind
+[26Feb2025 12:03:04.243] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2003ms or 40 ticks behind
+[26Feb2025 12:03:22.024] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2784ms or 55 ticks behind
+[26Feb2025 12:03:39.747] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2757ms or 55 ticks behind
+[26Feb2025 12:05:09.082] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [초보자] 성현 has made the advancement [A Terrible Fortress]
+[26Feb2025 12:05:19.639] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [초보자] 성현 has made the advancement [Take Aim]
+[26Feb2025 12:06:33.036] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [초보자] 성현 has made the advancement [Into Fire]
+[26Feb2025 12:13:25.279] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [초보자] 성현 has made the advancement [A Seedy Place]
+[26Feb2025 12:17:06.224] [User Authenticator #9/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player Laecee is c8868498-e726-47ec-b354-6ff664920b8b
+[26Feb2025 12:17:07.349] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@3a493f0[id=c8868498-e726-47ec-b354-6ff664920b8b,name=Laecee,properties={textures=[com.mojang.authlib.properties.Property@7405021]},legacy=false] (/116.121.221.160:53169) lost connection: Disconnected
+[26Feb2025 12:24:35.399] [User Authenticator #10/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player Laecee is c8868498-e726-47ec-b354-6ff664920b8b
+[26Feb2025 12:24:36.846] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Laecee[/116.121.221.160:53409] logged in with entity id 96263 at (-641.188959438185, 151.0, 529.5154243804234)
+[26Feb2025 12:24:36.862] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [초보자] 노아 joined the game
+[26Feb2025 12:26:20.086] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <[개척자] 한결> come to discord if you want
+[26Feb2025 12:26:44.887] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <[초보자] 노아> your not a 개척자
+[26Feb2025 12:26:50.531] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <[개척자] 한결> I am
+[26Feb2025 12:27:36.783] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <[초보자] 노아> somwone i n the sever?
+[26Feb2025 12:27:41.287] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <[개척자] 한결> ye
+[26Feb2025 12:27:46.578] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <[초보자] 노아> o
+[26Feb2025 12:27:47.980] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <[개척자] 한결> press tab
+[26Feb2025 12:35:45.532] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <[개척자] 선아> 어니
+[26Feb2025 12:35:52.532] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <[개척자] 선아> 어이
+[26Feb2025 12:35:56.185] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <[초보자] 노아> ?
+[26Feb2025 12:36:19.886] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <[개척자] 선아> 충성 수선 삼지창 살래
+[26Feb2025 12:36:33.037] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <[개척자] 선아> 에메랄드 내놔
+[26Feb2025 12:36:33.228] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <[개척자] 한결> no hogu
+[26Feb2025 12:36:41.182] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <[개척자] 선아> 한결 닥쳐
+[26Feb2025 12:36:41.795] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <[초보자] 노아> 하우 머치
+[26Feb2025 12:36:52.084] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <[개척자] 선아> 에메랄드 선제시
+[26Feb2025 12:37:14.783] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <[개척자] 선아> 1개뭐지
+[26Feb2025 12:37:29.480] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <[개척자] 선아> ajswj soshk
+[26Feb2025 12:37:34.880] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <[개척자] 선아> 먼저 내놔
+[26Feb2025 12:37:35.479] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <[초보자] 노아> 먼저 주쇼
+[26Feb2025 12:37:42.230] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <[개척자] 선아> 내놔
+[26Feb2025 12:37:43.557] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <[초보자] 노아> 아;;
+[26Feb2025 12:37:56.037] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <[초보자] 노아> 뺏어보시지
+[26Feb2025 12:38:22.588] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <[개척자] 선아> 내놔
+[26Feb2025 12:39:42.829] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <[초보자] 노아> 내구도 아;;
+[26Feb2025 12:40:18.332] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <[개척자] 한결> 수선 can repair damage
+[26Feb2025 12:40:25.486] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <[개척자] 한결> if you get exp
+[26Feb2025 12:40:26.479] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <[초보자] 노아> HOW
+[26Feb2025 12:40:33.087] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <[개척자] 한결> while holding it
+[26Feb2025 12:41:59.281] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <[초보자] 노아> what if it broke at once
+[26Feb2025 12:42:14.385] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <[개척자] 한결> then it's gone forever
+[26Feb2025 12:42:26.380] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <[초보자] 노아> was it hodu then
+[26Feb2025 12:42:36.184] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <[개척자] 한결> maybe
+[26Feb2025 12:43:40.136] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <[초보자] 노아> but why so dogs
+[26Feb2025 12:43:51.632] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <[개척자] 한결> don't ask
+[26Feb2025 12:43:56.234] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <[개척자] 한결> dogs are cute
+[26Feb2025 12:43:59.543] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <[개척자] 선아> ㅑ ㅏㅜㅐㅈ
+[26Feb2025 12:44:04.626] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <[개척자] 선아> i know
+[26Feb2025 12:44:11.229] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <[초보자] 노아> but theyr getting boiled
+[26Feb2025 12:44:25.230] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <[개척자] 한결> cause we're asians
+[26Feb2025 12:44:31.145] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <[개척자] 선아> 찜질 하느거야
+[26Feb2025 12:44:49.753] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <[초보자] 노아> ㅡㅡ
+[26Feb2025 12:45:06.827] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Nohahan lost connection: Disconnected
+[26Feb2025 12:45:06.828] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [개척자] 한결 left the game
+[26Feb2025 12:46:53.833] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <[개척자] 선아> sleep
+[26Feb2025 12:46:57.129] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <[개척자] 선아> sleep
+[26Feb2025 12:47:00.881] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <[개척자] 선아> sleep
+[26Feb2025 12:47:03.683] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <[개척자] 선아> sleep
+[26Feb2025 12:47:05.134] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <[초보자] 노아> no
+[26Feb2025 12:47:06.341] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <[개척자] 선아> sleep
+[26Feb2025 12:47:16.031] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <[개척자] 선아> fuck
+[26Feb2025 12:47:27.687] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <[개척자] 선아> agari
+[26Feb2025 12:47:41.059] [User Authenticator #11/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player Nohahan is 0228dc88-9371-4061-b8e1-1c14fe7a7da0
+[26Feb2025 12:47:42.641] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Nohahan[/116.121.221.160:50051] logged in with entity id 105968 at (-574.4469871981946, 159.0, 351.0848909502036)
+[26Feb2025 12:47:42.674] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [개척자] 한결 joined the game
+[26Feb2025 12:48:16.589] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <[개척자] 선아> sleep
+[26Feb2025 12:48:18.031] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <[개척자] 선아> slepp
+[26Feb2025 12:48:19.329] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <[개척자] 선아> sleep
+[26Feb2025 12:48:20.576] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <[개척자] 선아> sleep
+[26Feb2025 12:48:21.677] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <[개척자] 선아> sleep
+[26Feb2025 12:48:22.789] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <[개척자] 선아> sleep
+[26Feb2025 12:48:23.981] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <[개척자] 선아> sleep
+[26Feb2025 12:48:24.983] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <[개척자] 선아> sleep
+[26Feb2025 12:48:26.325] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <[개척자] 선아> sleep
+[26Feb2025 12:48:27.489] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <[개척자] 선아> sleep
+[26Feb2025 12:48:28.675] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <[개척자] 선아> sleep
+[26Feb2025 12:48:29.725] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <[개척자] 선아> sleep
+[26Feb2025 12:48:30.825] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <[개척자] 선아> sleep
+[26Feb2025 12:48:31.992] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <[개척자] 선아> sleep
+[26Feb2025 12:48:32.222] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: wny2463 lost connection: Disconnected
+[26Feb2025 12:48:32.222] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [초보자] 나연 left the game
+[26Feb2025 12:48:33.131] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <[개척자] 선아> sleep
+[26Feb2025 12:48:34.278] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <[개척자] 선아> sleep
+[26Feb2025 12:48:35.282] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <[개척자] 선아> sleep
+[26Feb2025 12:48:36.425] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <[개척자] 선아> sleep
+[26Feb2025 12:48:37.674] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <[개척자] 선아> sleep
+[26Feb2025 12:48:38.968] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <[개척자] 선아> sleep
+[26Feb2025 12:48:40.125] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <[개척자] 선아> sleep
+[26Feb2025 12:48:41.321] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <[개척자] 선아> sleep
+[26Feb2025 12:48:42.618] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <[개척자] 선아> sleep
+[26Feb2025 12:48:44.217] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <[개척자] 선아> sleep
+[26Feb2025 12:48:45.371] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <[개척자] 선아> sleep
+[26Feb2025 12:48:46.571] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <[개척자] 선아> sleep
+[26Feb2025 12:48:48.178] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <[개척자] 선아> sleep
+[26Feb2025 12:48:49.418] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <[개척자] 선아> sleep
+[26Feb2025 12:48:50.981] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <[개척자] 선아> sleep
+[26Feb2025 12:48:52.183] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <[개척자] 선아> sleep
+[26Feb2025 12:48:53.770] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <[개척자] 선아> sleep
+[26Feb2025 12:48:54.920] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <[개척자] 선아> sleep
+[26Feb2025 12:48:56.133] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <[개척자] 선아> sleep
+[26Feb2025 12:48:57.289] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <[개척자] 선아> sleep
+[26Feb2025 12:48:58.489] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <[개척자] 선아> sleep
+[26Feb2025 12:48:59.669] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <[개척자] 선아> sleep
+[26Feb2025 12:49:00.874] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <[개척자] 선아> sleep
+[26Feb2025 12:49:02.175] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <[개척자] 선아> sleep
+[26Feb2025 12:49:03.969] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <[개척자] 선아> sleep
+[26Feb2025 12:49:05.021] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <[개척자] 선아> good
+[26Feb2025 12:49:07.916] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <[개척자] 선아> good
+[26Feb2025 12:49:16.124] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <[개척자] 한결> ^^b
+[26Feb2025 12:49:16.945] [User Authenticator #12/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player wny2463 is 52a3e9dd-43f3-40bd-b304-d10bd8eb6782
+[26Feb2025 12:49:18.930] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: wny2463[/110.46.214.126:53729] logged in with entity id 106315 at (-715.3000000119209, -53.0, 328.6997907680015)
+[26Feb2025 12:49:18.941] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [초보자] 나연 joined the game
+[26Feb2025 12:51:27.388] [User Authenticator #13/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player 92in is 3a0e7da3-17e2-4d19-881b-36baac086e14
+[26Feb2025 12:51:28.842] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: 92in[/211.241.110.50:56530] logged in with entity id 107355 at (-646.5446365334051, 152.0, 508.2287740948667)
+[26Feb2025 12:51:28.847] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [초보자] 유진 joined the game
+[26Feb2025 13:08:07.394] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2005ms or 40 ticks behind
+[26Feb2025 13:08:28.203] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2013ms or 40 ticks behind
+[26Feb2025 13:09:03.942] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2002ms or 40 ticks behind
+[26Feb2025 13:09:26.200] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2010ms or 40 ticks behind
+[26Feb2025 13:10:30.247] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2007ms or 40 ticks behind
+[26Feb2025 13:11:17.994] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2004ms or 40 ticks behind
+[26Feb2025 13:11:48.498] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2008ms or 40 ticks behind
+[26Feb2025 13:12:14.450] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2011ms or 40 ticks behind
+[26Feb2025 13:12:34.541] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2001ms or 40 ticks behind
+[26Feb2025 13:12:53.099] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2009ms or 40 ticks behind
+[26Feb2025 13:13:13.502] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2012ms or 40 ticks behind
+[26Feb2025 13:13:40.207] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <[초보자] 노아> 일자리 구함, 심심...
+[26Feb2025 13:13:53.177] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <[개척자] 선아> s나나
+[26Feb2025 13:13:59.712] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <[개척자] 한결> discord
+[26Feb2025 13:14:01.319] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <[개척자] 한결> come
+[26Feb2025 13:14:13.285] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <[초보자] 노아> no
+[26Feb2025 13:14:16.716] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <[개척자] 한결> ok
+[26Feb2025 13:14:17.063] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2023ms or 40 ticks behind
+[26Feb2025 13:14:17.242] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <[개척자] 선아> 열대어가 든 양동이좀 10개 가지고오세요
+[26Feb2025 13:14:57.874] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <[개척자] 선아> 임금
+[26Feb2025 13:15:09.617] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <[초보자] 노아> nice
+[26Feb2025 13:15:11.632] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <[개척자] 선아> 열대어가 든 양동이 10개만'
+[26Feb2025 13:15:20.050] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <[초보자] 유진> 나도
+[26Feb2025 13:15:20.492] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2002ms or 40 ticks behind
+[26Feb2025 13:15:51.098] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2008ms or 40 ticks behind
+[26Feb2025 13:16:08.141] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2001ms or 40 ticks behind
+[26Feb2025 13:16:25.813] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2673ms or 53 ticks behind
+[26Feb2025 13:16:42.844] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2054ms or 41 ticks behind
+[26Feb2025 13:17:00.749] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2909ms or 58 ticks behind
+[26Feb2025 13:17:19.405] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3665ms or 73 ticks behind
+[26Feb2025 13:17:36.955] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2565ms or 51 ticks behind
+[26Feb2025 13:17:56.110] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4171ms or 83 ticks behind
+[26Feb2025 13:18:15.166] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4076ms or 81 ticks behind
+[26Feb2025 13:18:35.499] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 5359ms or 107 ticks behind
+[26Feb2025 13:18:56.365] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 5876ms or 117 ticks behind
+[26Feb2025 13:19:19.223] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 7883ms or 157 ticks behind
+[26Feb2025 13:19:44.992] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 10802ms or 216 ticks behind
+[26Feb2025 13:20:06.525] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 6535ms or 130 ticks behind
+[26Feb2025 13:20:26.980] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 5490ms or 109 ticks behind
+[26Feb2025 13:20:47.096] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 5157ms or 103 ticks behind
+[26Feb2025 13:21:06.265] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4175ms or 83 ticks behind
+[26Feb2025 13:21:19.890] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [초보자] 성현 has made the advancement [Ice Bucket Challenge]
+[26Feb2025 13:21:24.581] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3341ms or 66 ticks behind
+[26Feb2025 13:21:45.586] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 6046ms or 120 ticks behind
+[26Feb2025 13:22:04.372] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3832ms or 76 ticks behind
+[26Feb2025 13:22:23.597] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4257ms or 85 ticks behind
+[26Feb2025 13:22:44.083] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 5493ms or 109 ticks behind
+[26Feb2025 13:23:04.827] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 5787ms or 115 ticks behind
+[26Feb2025 13:23:26.769] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 6979ms or 139 ticks behind
+[26Feb2025 13:23:32.360] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [초보자] 노아 has made the advancement [Tactical Fishing]
+[26Feb2025 13:23:48.678] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 6938ms or 138 ticks behind
+[26Feb2025 13:24:08.708] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 5068ms or 101 ticks behind
+[26Feb2025 13:24:28.220] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4530ms or 90 ticks behind
+[26Feb2025 13:24:45.915] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2725ms or 54 ticks behind
+[26Feb2025 13:25:04.125] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3235ms or 64 ticks behind
+[26Feb2025 13:25:23.741] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4651ms or 93 ticks behind
+[26Feb2025 13:25:43.046] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4306ms or 86 ticks behind
+[26Feb2025 13:26:02.810] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4770ms or 95 ticks behind
+[26Feb2025 13:26:22.649] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4859ms or 97 ticks behind
+[26Feb2025 13:26:42.728] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 5088ms or 101 ticks behind
+[26Feb2025 13:27:02.245] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4555ms or 91 ticks behind
+[26Feb2025 13:27:21.579] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4339ms or 86 ticks behind
+[26Feb2025 13:27:40.732] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4193ms or 83 ticks behind
+[26Feb2025 13:28:01.005] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 5315ms or 106 ticks behind
+[26Feb2025 13:28:22.609] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 6619ms or 132 ticks behind
+[26Feb2025 13:28:40.315] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2726ms or 54 ticks behind
+[26Feb2025 13:28:58.451] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3161ms or 63 ticks behind
+[26Feb2025 13:29:17.815] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4375ms or 87 ticks behind
+[26Feb2025 13:29:36.929] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4139ms or 82 ticks behind
+[26Feb2025 13:29:57.601] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 5711ms or 114 ticks behind
+[26Feb2025 13:30:17.130] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4540ms or 90 ticks behind
+[26Feb2025 13:30:36.855] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4765ms or 95 ticks behind
+[26Feb2025 13:30:56.261] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4421ms or 88 ticks behind
+[26Feb2025 13:31:16.815] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 5576ms or 111 ticks behind
+[26Feb2025 13:31:36.149] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4359ms or 87 ticks behind
+[26Feb2025 13:31:55.509] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4369ms or 87 ticks behind
+[26Feb2025 13:32:13.222] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2732ms or 54 ticks behind
+[26Feb2025 13:32:30.990] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2800ms or 56 ticks behind
+[26Feb2025 13:32:48.783] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2793ms or 55 ticks behind
+[26Feb2025 13:33:06.095] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2356ms or 47 ticks behind
+[26Feb2025 13:33:26.096] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 5006ms or 100 ticks behind
+[26Feb2025 13:33:46.635] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 5545ms or 110 ticks behind
+[26Feb2025 13:34:06.296] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4707ms or 94 ticks behind
+[26Feb2025 13:34:27.949] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2009ms or 40 ticks behind
+[26Feb2025 13:34:47.720] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4781ms or 95 ticks behind
+[26Feb2025 13:35:05.842] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2002ms or 40 ticks behind
+[26Feb2025 13:35:24.323] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3483ms or 69 ticks behind
+[26Feb2025 13:35:41.589] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2299ms or 45 ticks behind
+[26Feb2025 13:35:58.944] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2404ms or 48 ticks behind
+[26Feb2025 13:36:01.886] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <[초보자] 노아> where is my boss
+[26Feb2025 13:36:07.630] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <[개척자] 한결> here
+[26Feb2025 13:36:11.036] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <[개척자] 선아> 창고에 넣어두십쇼
+[26Feb2025 13:36:16.702] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2762ms or 55 ticks behind
+[26Feb2025 13:36:34.346] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2656ms or 53 ticks behind
+[26Feb2025 13:36:53.362] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4022ms or 80 ticks behind
+[26Feb2025 13:37:01.878] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <[초보자] 노아> 그럼 전 이만...
+[26Feb2025 13:37:04.664] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Laecee lost connection: Disconnected
+[26Feb2025 13:37:04.664] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [초보자] 노아 left the game
+[26Feb2025 13:37:11.337] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2997ms or 59 ticks behind
+[26Feb2025 13:37:31.243] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2003ms or 40 ticks behind
+[26Feb2025 13:38:03.097] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2007ms or 40 ticks behind
+[26Feb2025 13:38:43.100] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2010ms or 40 ticks behind
+[26Feb2025 13:39:10.099] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2009ms or 40 ticks behind
+[26Feb2025 13:39:28.651] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2011ms or 40 ticks behind
+[26Feb2025 13:39:47.657] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4017ms or 80 ticks behind
+[26Feb2025 13:40:18.450] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2010ms or 40 ticks behind
+[26Feb2025 13:40:35.987] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2547ms or 50 ticks behind
+[26Feb2025 13:40:53.281] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2341ms or 46 ticks behind
+[26Feb2025 13:41:11.304] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3065ms or 61 ticks behind
+[26Feb2025 13:41:30.161] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3871ms or 77 ticks behind
+[26Feb2025 13:41:49.215] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4075ms or 81 ticks behind
+[26Feb2025 13:42:09.562] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 5372ms or 107 ticks behind
+[26Feb2025 13:42:28.981] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4441ms or 88 ticks behind
+[26Feb2025 13:42:48.622] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4682ms or 93 ticks behind
+[26Feb2025 13:43:07.524] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3934ms or 78 ticks behind
+[26Feb2025 13:43:26.556] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4066ms or 81 ticks behind
+[26Feb2025 13:43:45.603] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4063ms or 81 ticks behind
+[26Feb2025 13:44:04.642] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4052ms or 81 ticks behind
+[26Feb2025 13:44:23.816] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4176ms or 83 ticks behind
+[26Feb2025 13:44:43.009] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4219ms or 84 ticks behind
+[26Feb2025 13:45:02.394] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4404ms or 88 ticks behind
+[26Feb2025 13:45:21.309] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3919ms or 78 ticks behind
+[26Feb2025 13:45:38.872] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2582ms or 51 ticks behind
+[26Feb2025 13:45:56.558] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2718ms or 54 ticks behind
+[26Feb2025 13:46:14.347] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2807ms or 56 ticks behind
+[26Feb2025 13:46:33.134] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3794ms or 75 ticks behind
+[26Feb2025 13:46:51.277] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3187ms or 63 ticks behind
+[26Feb2025 13:47:08.907] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2667ms or 53 ticks behind
+[26Feb2025 13:47:26.911] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3021ms or 60 ticks behind
+[26Feb2025 13:47:44.491] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2601ms or 52 ticks behind
+[26Feb2025 13:48:03.644] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2004ms or 40 ticks behind
+[26Feb2025 13:48:20.680] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2040ms or 40 ticks behind
+[26Feb2025 13:48:44.792] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2002ms or 40 ticks behind
+[26Feb2025 13:49:05.441] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2001ms or 40 ticks behind
+[26Feb2025 13:49:41.299] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2009ms or 40 ticks behind
+[26Feb2025 13:50:14.948] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2008ms or 40 ticks behind
+[26Feb2025 13:50:32.911] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2971ms or 59 ticks behind
+[26Feb2025 13:50:50.052] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2163ms or 43 ticks behind
+[26Feb2025 13:51:08.095] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3055ms or 61 ticks behind
+[26Feb2025 13:51:25.803] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2713ms or 54 ticks behind
+[26Feb2025 13:51:43.549] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2759ms or 55 ticks behind
+[26Feb2025 13:52:01.238] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2698ms or 53 ticks behind
+[26Feb2025 13:52:19.905] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3715ms or 74 ticks behind
+[26Feb2025 13:52:37.134] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2244ms or 44 ticks behind
+[26Feb2025 13:52:55.572] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3482ms or 69 ticks behind
+[26Feb2025 13:53:13.598] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3058ms or 61 ticks behind
+[26Feb2025 13:53:32.813] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4223ms or 84 ticks behind
+[26Feb2025 13:53:52.554] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4764ms or 95 ticks behind
+[26Feb2025 13:53:55.338] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [[개척자] 한결: Set the weather to clear]
+[26Feb2025 13:54:09.676] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2136ms or 42 ticks behind
+[26Feb2025 13:54:29.341] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2001ms or 40 ticks behind
+[26Feb2025 13:54:51.658] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2018ms or 40 ticks behind
+[26Feb2025 13:55:09.040] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2400ms or 48 ticks behind
+[26Feb2025 13:55:17.479] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Nohahan lost connection: Disconnected
+[26Feb2025 13:55:17.479] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [개척자] 한결 left the game
+[26Feb2025 13:55:26.204] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2164ms or 43 ticks behind
+[26Feb2025 13:55:43.509] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2019ms or 40 ticks behind
+[26Feb2025 13:56:01.894] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2004ms or 40 ticks behind
+[26Feb2025 13:56:23.041] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2001ms or 40 ticks behind
+[26Feb2025 13:56:42.093] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2003ms or 40 ticks behind
+[26Feb2025 13:56:59.585] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2495ms or 49 ticks behind
+[26Feb2025 13:57:16.973] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2433ms or 48 ticks behind
+[26Feb2025 13:57:34.229] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2289ms or 45 ticks behind
+[26Feb2025 13:57:51.485] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2295ms or 45 ticks behind
+[26Feb2025 13:58:09.709] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3269ms or 65 ticks behind
+[26Feb2025 13:58:26.771] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2081ms or 41 ticks behind
+[26Feb2025 13:58:45.243] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2003ms or 40 ticks behind
+[26Feb2025 13:59:02.542] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2002ms or 40 ticks behind
+[26Feb2025 13:59:19.696] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2156ms or 43 ticks behind
+[26Feb2025 13:59:37.071] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2381ms or 47 ticks behind
+[26Feb2025 13:59:54.105] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2065ms or 41 ticks behind
+[26Feb2025 14:00:11.937] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2847ms or 56 ticks behind
+[26Feb2025 14:00:30.292] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3402ms or 68 ticks behind
+[26Feb2025 14:00:49.336] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4046ms or 80 ticks behind
+[26Feb2025 14:01:06.873] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2583ms or 51 ticks behind
+[26Feb2025 14:01:24.398] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2558ms or 51 ticks behind
+[26Feb2025 14:01:42.011] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2621ms or 52 ticks behind
+[26Feb2025 14:01:59.168] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2179ms or 43 ticks behind
+[26Feb2025 14:02:16.546] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2406ms or 48 ticks behind
+[26Feb2025 14:02:34.651] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3111ms or 62 ticks behind
+[26Feb2025 14:02:52.914] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3274ms or 65 ticks behind
+[26Feb2025 14:03:11.160] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3270ms or 65 ticks behind
+[26Feb2025 14:03:29.810] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3670ms or 73 ticks behind
+[26Feb2025 14:03:48.804] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4014ms or 80 ticks behind
+[26Feb2025 14:04:07.032] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3242ms or 64 ticks behind
+[26Feb2025 14:04:24.543] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2553ms or 51 ticks behind
+[26Feb2025 14:04:41.813] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2273ms or 45 ticks behind
+[26Feb2025 14:04:59.012] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2222ms or 44 ticks behind
+[26Feb2025 14:05:17.457] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3467ms or 69 ticks behind
+[26Feb2025 14:05:35.254] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2814ms or 56 ticks behind
+[26Feb2025 14:05:52.735] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2495ms or 49 ticks behind
+[26Feb2025 14:06:09.966] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2276ms or 45 ticks behind
+[26Feb2025 14:06:27.273] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2334ms or 46 ticks behind
+[26Feb2025 14:06:44.891] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2651ms or 53 ticks behind
+[26Feb2025 14:07:03.350] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3460ms or 69 ticks behind
+[26Feb2025 14:07:21.760] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3420ms or 68 ticks behind
+[26Feb2025 14:07:40.014] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3274ms or 65 ticks behind
+[26Feb2025 14:07:57.650] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2660ms or 53 ticks behind
+[26Feb2025 14:08:14.089] [Server thread/ERROR] [net.minecraft.network.protocol.PacketUtils/]: Failed to handle packet net.minecraft.network.protocol.game.ServerboundUseItemPacket@36cd19aa, suppressing error
 org.spongepowered.asm.mixin.injection.callback.CancellationException: The call m_37156_ is not cancellable.
 	at org.spongepowered.asm.mixin.injection.callback.CallbackInfo.cancel(CallbackInfo.java:101) ~[mixin-0.8.5.jar%2365!/:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
 	at net.minecraft.world.entity.projectile.FishingHook.handler$zbb000$retrieve(FishingHook.java:631) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
@@ -508,8 +936,14 @@ org.spongepowered.asm.mixin.injection.callback.CancellationException: The call m
 	at net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:732) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
 	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:665) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
 	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at java.lang.Thread.run(Thread.java:842) ~[?:?]
-[262��2025 01:19:00.439] [Server thread/ERROR] [net.minecraft.network.protocol.PacketUtils/]: Failed to handle packet net.minecraft.network.protocol.game.ServerboundUseItemPacket@4f730688, suppressing error
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+[26Feb2025 14:08:15.311] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2671ms or 53 ticks behind
+[26Feb2025 14:08:33.200] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2910ms or 58 ticks behind
+[26Feb2025 14:08:50.855] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2665ms or 53 ticks behind
+[26Feb2025 14:09:08.586] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2746ms or 54 ticks behind
+[26Feb2025 14:09:26.245] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2705ms or 54 ticks behind
+[26Feb2025 14:09:44.280] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3040ms or 60 ticks behind
+[26Feb2025 14:09:54.958] [Server thread/ERROR] [net.minecraft.network.protocol.PacketUtils/]: Failed to handle packet net.minecraft.network.protocol.game.ServerboundUseItemPacket@70fa1d9f, suppressing error
 org.spongepowered.asm.mixin.injection.callback.CancellationException: The call m_37156_ is not cancellable.
 	at org.spongepowered.asm.mixin.injection.callback.CallbackInfo.cancel(CallbackInfo.java:101) ~[mixin-0.8.5.jar%2365!/:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
 	at net.minecraft.world.entity.projectile.FishingHook.handler$zbb000$retrieve(FishingHook.java:631) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
@@ -533,8 +967,37 @@ org.spongepowered.asm.mixin.injection.callback.CancellationException: The call m
 	at net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:732) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
 	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:665) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
 	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at java.lang.Thread.run(Thread.java:842) ~[?:?]
-[262��2025 01:19:23.340] [Server thread/ERROR] [net.minecraft.network.protocol.PacketUtils/]: Failed to handle packet net.minecraft.network.protocol.game.ServerboundUseItemPacket@7f9b2c0e, suppressing error
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+[26Feb2025 14:10:02.492] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3252ms or 65 ticks behind
+[26Feb2025 14:10:20.071] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2581ms or 51 ticks behind
+[26Feb2025 14:10:37.362] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2323ms or 46 ticks behind
+[26Feb2025 14:10:54.854] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2514ms or 50 ticks behind
+[26Feb2025 14:11:12.264] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2424ms or 48 ticks behind
+[26Feb2025 14:11:29.869] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2629ms or 52 ticks behind
+[26Feb2025 14:11:47.282] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2442ms or 48 ticks behind
+[26Feb2025 14:12:04.763] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2523ms or 50 ticks behind
+[26Feb2025 14:12:22.464] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2725ms or 54 ticks behind
+[26Feb2025 14:12:40.041] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2601ms or 52 ticks behind
+[26Feb2025 14:12:57.541] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2501ms or 50 ticks behind
+[26Feb2025 14:13:14.890] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2350ms or 47 ticks behind
+[26Feb2025 14:13:32.185] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2295ms or 45 ticks behind
+[26Feb2025 14:13:49.661] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2521ms or 50 ticks behind
+[26Feb2025 14:14:07.102] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2462ms or 49 ticks behind
+[26Feb2025 14:14:24.207] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2117ms or 42 ticks behind
+[26Feb2025 14:14:41.421] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2231ms or 44 ticks behind
+[26Feb2025 14:15:03.595] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2005ms or 40 ticks behind
+[26Feb2025 14:15:37.693] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2003ms or 40 ticks behind
+[26Feb2025 14:23:01.942] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2002ms or 40 ticks behind
+[26Feb2025 14:23:34.149] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2009ms or 40 ticks behind
+[26Feb2025 14:24:02.142] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2002ms or 40 ticks behind
+[26Feb2025 14:24:33.543] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2003ms or 40 ticks behind
+[26Feb2025 14:24:59.847] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2007ms or 40 ticks behind
+[26Feb2025 14:25:26.451] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2011ms or 40 ticks behind
+[26Feb2025 14:25:52.742] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2352ms or 47 ticks behind
+[26Feb2025 14:26:34.764] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2024ms or 40 ticks behind
+[26Feb2025 14:27:34.160] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2020ms or 40 ticks behind
+[26Feb2025 14:28:22.243] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2003ms or 40 ticks behind
+[26Feb2025 14:28:42.398] [Server thread/ERROR] [net.minecraft.network.protocol.PacketUtils/]: Failed to handle packet net.minecraft.network.protocol.game.ServerboundUseItemPacket@7e9eea78, suppressing error
 org.spongepowered.asm.mixin.injection.callback.CancellationException: The call m_37156_ is not cancellable.
 	at org.spongepowered.asm.mixin.injection.callback.CallbackInfo.cancel(CallbackInfo.java:101) ~[mixin-0.8.5.jar%2365!/:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
 	at net.minecraft.world.entity.projectile.FishingHook.handler$zbb000$retrieve(FishingHook.java:631) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
@@ -558,59 +1021,11 @@ org.spongepowered.asm.mixin.injection.callback.CancellationException: The call m
 	at net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:732) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
 	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:665) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
 	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at java.lang.Thread.run(Thread.java:842) ~[?:?]
-[262��2025 01:19:56.523] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [�ʺ���] ���� has made the advancement [Fishy Business]
-[262��2025 01:19:56.525] [Server thread/ERROR] [net.minecraft.network.protocol.PacketUtils/]: Failed to handle packet net.minecraft.network.protocol.game.ServerboundUseItemPacket@4b21a7f, suppressing error
-org.spongepowered.asm.mixin.injection.callback.CancellationException: The call m_37156_ is not cancellable.
-	at org.spongepowered.asm.mixin.injection.callback.CallbackInfo.cancel(CallbackInfo.java:101) ~[mixin-0.8.5.jar%2365!/:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
-	at net.minecraft.world.entity.projectile.FishingHook.handler$zbb000$retrieve(FishingHook.java:631) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at net.minecraft.world.entity.projectile.FishingHook.m_37156_(FishingHook.java:417) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at net.minecraft.world.item.FishingRodItem.m_7203_(FishingRodItem.java:23) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at net.minecraft.world.item.ItemStack.m_41682_(ItemStack.java:275) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at net.minecraft.server.level.ServerPlayerGameMode.m_6261_(ServerPlayerGameMode.java:286) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at net.minecraft.server.network.ServerGamePacketListenerImpl.m_5760_(ServerGamePacketListenerImpl.java:1087) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at net.minecraft.network.protocol.game.ServerboundUseItemPacket.m_5797_(ServerboundUseItemPacket.java:29) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at net.minecraft.network.protocol.game.ServerboundUseItemPacket.m_5797_(ServerboundUseItemPacket.java:7) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at net.minecraft.network.protocol.PacketUtils.m_263899_(PacketUtils.java:22) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:770) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:161) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:753) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:747) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:139) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:733) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:665) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at java.lang.Thread.run(Thread.java:842) ~[?:?]
-[262��2025 01:20:27.386] [Server thread/ERROR] [net.minecraft.network.protocol.PacketUtils/]: Failed to handle packet net.minecraft.network.protocol.game.ServerboundUseItemPacket@24506697, suppressing error
-org.spongepowered.asm.mixin.injection.callback.CancellationException: The call m_37156_ is not cancellable.
-	at org.spongepowered.asm.mixin.injection.callback.CallbackInfo.cancel(CallbackInfo.java:101) ~[mixin-0.8.5.jar%2365!/:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
-	at net.minecraft.world.entity.projectile.FishingHook.handler$zbb000$retrieve(FishingHook.java:631) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at net.minecraft.world.entity.projectile.FishingHook.m_37156_(FishingHook.java:417) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at net.minecraft.world.item.FishingRodItem.m_7203_(FishingRodItem.java:23) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at net.minecraft.world.item.ItemStack.m_41682_(ItemStack.java:275) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at net.minecraft.server.level.ServerPlayerGameMode.m_6261_(ServerPlayerGameMode.java:286) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at net.minecraft.server.network.ServerGamePacketListenerImpl.m_5760_(ServerGamePacketListenerImpl.java:1087) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at net.minecraft.network.protocol.game.ServerboundUseItemPacket.m_5797_(ServerboundUseItemPacket.java:29) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at net.minecraft.network.protocol.game.ServerboundUseItemPacket.m_5797_(ServerboundUseItemPacket.java:7) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at net.minecraft.network.protocol.PacketUtils.m_263899_(PacketUtils.java:22) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:770) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:161) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:753) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:747) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:139) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:733) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:665) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at java.lang.Thread.run(Thread.java:842) ~[?:?]
-[262��2025 01:21:31.790] [Server thread/ERROR] [net.minecraft.network.protocol.PacketUtils/]: Failed to handle packet net.minecraft.network.protocol.game.ServerboundUseItemPacket@1f1c2a1a, suppressing error
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+[26Feb2025 14:28:42.844] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2004ms or 40 ticks behind
+[26Feb2025 14:29:01.574] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2034ms or 40 ticks behind
+[26Feb2025 14:29:21.343] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2003ms or 40 ticks behind
+[26Feb2025 14:29:26.419] [Server thread/ERROR] [net.minecraft.network.protocol.PacketUtils/]: Failed to handle packet net.minecraft.network.protocol.game.ServerboundUseItemPacket@61afb419, suppressing error
 org.spongepowered.asm.mixin.injection.callback.CancellationException: The call m_37156_ is not cancellable.
 	at org.spongepowered.asm.mixin.injection.callback.CallbackInfo.cancel(CallbackInfo.java:101) ~[mixin-0.8.5.jar%2365!/:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
 	at net.minecraft.world.entity.projectile.FishingHook.handler$zbb000$retrieve(FishingHook.java:631) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
@@ -634,8 +1049,9 @@ org.spongepowered.asm.mixin.injection.callback.CancellationException: The call m
 	at net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:732) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
 	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:665) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
 	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at java.lang.Thread.run(Thread.java:842) ~[?:?]
-[262��2025 01:22:07.383] [Server thread/ERROR] [net.minecraft.network.protocol.PacketUtils/]: Failed to handle packet net.minecraft.network.protocol.game.ServerboundUseItemPacket@72d693de, suppressing error
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+[26Feb2025 14:29:41.244] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2004ms or 40 ticks behind
+[26Feb2025 14:29:55.749] [Server thread/ERROR] [net.minecraft.network.protocol.PacketUtils/]: Failed to handle packet net.minecraft.network.protocol.game.ServerboundUseItemPacket@e9ac3d5, suppressing error
 org.spongepowered.asm.mixin.injection.callback.CancellationException: The call m_37156_ is not cancellable.
 	at org.spongepowered.asm.mixin.injection.callback.CallbackInfo.cancel(CallbackInfo.java:101) ~[mixin-0.8.5.jar%2365!/:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
 	at net.minecraft.world.entity.projectile.FishingHook.handler$zbb000$retrieve(FishingHook.java:631) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
@@ -659,58 +1075,11 @@ org.spongepowered.asm.mixin.injection.callback.CancellationException: The call m
 	at net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:732) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
 	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:665) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
 	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at java.lang.Thread.run(Thread.java:842) ~[?:?]
-[262��2025 01:22:34.982] [Server thread/ERROR] [net.minecraft.network.protocol.PacketUtils/]: Failed to handle packet net.minecraft.network.protocol.game.ServerboundUseItemPacket@4de94724, suppressing error
-org.spongepowered.asm.mixin.injection.callback.CancellationException: The call m_37156_ is not cancellable.
-	at org.spongepowered.asm.mixin.injection.callback.CallbackInfo.cancel(CallbackInfo.java:101) ~[mixin-0.8.5.jar%2365!/:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
-	at net.minecraft.world.entity.projectile.FishingHook.handler$zbb000$retrieve(FishingHook.java:631) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at net.minecraft.world.entity.projectile.FishingHook.m_37156_(FishingHook.java:417) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at net.minecraft.world.item.FishingRodItem.m_7203_(FishingRodItem.java:23) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at net.minecraft.world.item.ItemStack.m_41682_(ItemStack.java:275) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at net.minecraft.server.level.ServerPlayerGameMode.m_6261_(ServerPlayerGameMode.java:286) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at net.minecraft.server.network.ServerGamePacketListenerImpl.m_5760_(ServerGamePacketListenerImpl.java:1087) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at net.minecraft.network.protocol.game.ServerboundUseItemPacket.m_5797_(ServerboundUseItemPacket.java:29) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at net.minecraft.network.protocol.game.ServerboundUseItemPacket.m_5797_(ServerboundUseItemPacket.java:7) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at net.minecraft.network.protocol.PacketUtils.m_263899_(PacketUtils.java:22) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:770) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:161) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:753) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:747) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:139) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:733) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:665) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at java.lang.Thread.run(Thread.java:842) ~[?:?]
-[262��2025 01:23:37.493] [Server thread/ERROR] [net.minecraft.network.protocol.PacketUtils/]: Failed to handle packet net.minecraft.network.protocol.game.ServerboundUseItemPacket@59e6814c, suppressing error
-org.spongepowered.asm.mixin.injection.callback.CancellationException: The call m_37156_ is not cancellable.
-	at org.spongepowered.asm.mixin.injection.callback.CallbackInfo.cancel(CallbackInfo.java:101) ~[mixin-0.8.5.jar%2365!/:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
-	at net.minecraft.world.entity.projectile.FishingHook.handler$zbb000$retrieve(FishingHook.java:631) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at net.minecraft.world.entity.projectile.FishingHook.m_37156_(FishingHook.java:417) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at net.minecraft.world.item.FishingRodItem.m_7203_(FishingRodItem.java:23) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at net.minecraft.world.item.ItemStack.m_41682_(ItemStack.java:275) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at net.minecraft.server.level.ServerPlayerGameMode.m_6261_(ServerPlayerGameMode.java:286) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at net.minecraft.server.network.ServerGamePacketListenerImpl.m_5760_(ServerGamePacketListenerImpl.java:1087) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at net.minecraft.network.protocol.game.ServerboundUseItemPacket.m_5797_(ServerboundUseItemPacket.java:29) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at net.minecraft.network.protocol.game.ServerboundUseItemPacket.m_5797_(ServerboundUseItemPacket.java:7) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at net.minecraft.network.protocol.PacketUtils.m_263899_(PacketUtils.java:22) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:770) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:161) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:753) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:747) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:139) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:733) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:665) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at java.lang.Thread.run(Thread.java:842) ~[?:?]
-[262��2025 01:24:04.483] [Server thread/ERROR] [net.minecraft.network.protocol.PacketUtils/]: Failed to handle packet net.minecraft.network.protocol.game.ServerboundUseItemPacket@5d81b31d, suppressing error
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+[26Feb2025 14:29:58.252] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2012ms or 40 ticks behind
+[26Feb2025 14:30:16.945] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2005ms or 40 ticks behind
+[26Feb2025 14:30:33.963] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2023ms or 40 ticks behind
+[26Feb2025 14:30:42.582] [Server thread/ERROR] [net.minecraft.network.protocol.PacketUtils/]: Failed to handle packet net.minecraft.network.protocol.game.ServerboundUseItemPacket@6927927b, suppressing error
 org.spongepowered.asm.mixin.injection.callback.CancellationException: The call m_37156_ is not cancellable.
 	at org.spongepowered.asm.mixin.injection.callback.CallbackInfo.cancel(CallbackInfo.java:101) ~[mixin-0.8.5.jar%2365!/:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
 	at net.minecraft.world.entity.projectile.FishingHook.handler$zbb000$retrieve(FishingHook.java:631) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
@@ -734,33 +1103,11 @@ org.spongepowered.asm.mixin.injection.callback.CancellationException: The call m
 	at net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:732) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
 	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:665) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
 	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at java.lang.Thread.run(Thread.java:842) ~[?:?]
-[262��2025 01:24:24.914] [Server thread/ERROR] [net.minecraft.network.protocol.PacketUtils/]: Failed to handle packet net.minecraft.network.protocol.game.ServerboundUseItemPacket@62c9e58b, suppressing error
-org.spongepowered.asm.mixin.injection.callback.CancellationException: The call m_37156_ is not cancellable.
-	at org.spongepowered.asm.mixin.injection.callback.CallbackInfo.cancel(CallbackInfo.java:101) ~[mixin-0.8.5.jar%2365!/:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
-	at net.minecraft.world.entity.projectile.FishingHook.handler$zbb000$retrieve(FishingHook.java:631) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at net.minecraft.world.entity.projectile.FishingHook.m_37156_(FishingHook.java:417) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at net.minecraft.world.item.FishingRodItem.m_7203_(FishingRodItem.java:23) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at net.minecraft.world.item.ItemStack.m_41682_(ItemStack.java:275) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at net.minecraft.server.level.ServerPlayerGameMode.m_6261_(ServerPlayerGameMode.java:286) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at net.minecraft.server.network.ServerGamePacketListenerImpl.m_5760_(ServerGamePacketListenerImpl.java:1087) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at net.minecraft.network.protocol.game.ServerboundUseItemPacket.m_5797_(ServerboundUseItemPacket.java:29) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at net.minecraft.network.protocol.game.ServerboundUseItemPacket.m_5797_(ServerboundUseItemPacket.java:7) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at net.minecraft.network.protocol.PacketUtils.m_263899_(PacketUtils.java:22) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:770) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:161) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:753) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:747) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:139) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:733) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:665) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at java.lang.Thread.run(Thread.java:842) ~[?:?]
-[262��2025 01:25:03.582] [Server thread/ERROR] [net.minecraft.network.protocol.PacketUtils/]: Failed to handle packet net.minecraft.network.protocol.game.ServerboundUseItemPacket@4c7fd9fb, suppressing error
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+[26Feb2025 14:30:51.243] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2003ms or 40 ticks behind
+[26Feb2025 14:31:08.277] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2037ms or 40 ticks behind
+[26Feb2025 14:31:25.639] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2399ms or 47 ticks behind
+[26Feb2025 14:31:28.921] [Server thread/ERROR] [net.minecraft.network.protocol.PacketUtils/]: Failed to handle packet net.minecraft.network.protocol.game.ServerboundUseItemPacket@110cb9c1, suppressing error
 org.spongepowered.asm.mixin.injection.callback.CancellationException: The call m_37156_ is not cancellable.
 	at org.spongepowered.asm.mixin.injection.callback.CallbackInfo.cancel(CallbackInfo.java:101) ~[mixin-0.8.5.jar%2365!/:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
 	at net.minecraft.world.entity.projectile.FishingHook.handler$zbb000$retrieve(FishingHook.java:631) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
@@ -784,8 +1131,9 @@ org.spongepowered.asm.mixin.injection.callback.CancellationException: The call m
 	at net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:732) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
 	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:665) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
 	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at java.lang.Thread.run(Thread.java:842) ~[?:?]
-[262��2025 01:25:35.785] [Server thread/ERROR] [net.minecraft.network.protocol.PacketUtils/]: Failed to handle packet net.minecraft.network.protocol.game.ServerboundUseItemPacket@52e0d654, suppressing error
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+[26Feb2025 14:31:44.441] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2001ms or 40 ticks behind
+[26Feb2025 14:31:57.722] [Server thread/ERROR] [net.minecraft.network.protocol.PacketUtils/]: Failed to handle packet net.minecraft.network.protocol.game.ServerboundUseItemPacket@55921f32, suppressing error
 org.spongepowered.asm.mixin.injection.callback.CancellationException: The call m_37156_ is not cancellable.
 	at org.spongepowered.asm.mixin.injection.callback.CallbackInfo.cancel(CallbackInfo.java:101) ~[mixin-0.8.5.jar%2365!/:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
 	at net.minecraft.world.entity.projectile.FishingHook.handler$zbb000$retrieve(FishingHook.java:631) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
@@ -809,8 +1157,11 @@ org.spongepowered.asm.mixin.injection.callback.CancellationException: The call m
 	at net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:732) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
 	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:665) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
 	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at java.lang.Thread.run(Thread.java:842) ~[?:?]
-[262��2025 01:26:13.283] [Server thread/ERROR] [net.minecraft.network.protocol.PacketUtils/]: Failed to handle packet net.minecraft.network.protocol.game.ServerboundUseItemPacket@4ecac97e, suppressing error
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+[26Feb2025 14:32:02.100] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2010ms or 40 ticks behind
+[26Feb2025 14:32:20.045] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2005ms or 40 ticks behind
+[26Feb2025 14:32:37.393] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2003ms or 40 ticks behind
+[26Feb2025 14:32:43.849] [Server thread/ERROR] [net.minecraft.network.protocol.PacketUtils/]: Failed to handle packet net.minecraft.network.protocol.game.ServerboundUseItemPacket@17dc427a, suppressing error
 org.spongepowered.asm.mixin.injection.callback.CancellationException: The call m_37156_ is not cancellable.
 	at org.spongepowered.asm.mixin.injection.callback.CallbackInfo.cancel(CallbackInfo.java:101) ~[mixin-0.8.5.jar%2365!/:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
 	at net.minecraft.world.entity.projectile.FishingHook.handler$zbb000$retrieve(FishingHook.java:631) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
@@ -834,8 +1185,10 @@ org.spongepowered.asm.mixin.injection.callback.CancellationException: The call m
 	at net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:732) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
 	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:665) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
 	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at java.lang.Thread.run(Thread.java:842) ~[?:?]
-[262��2025 01:26:38.882] [Server thread/ERROR] [net.minecraft.network.protocol.PacketUtils/]: Failed to handle packet net.minecraft.network.protocol.game.ServerboundUseItemPacket@4ee5ca3f, suppressing error
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+[26Feb2025 14:32:55.792] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2002ms or 40 ticks behind
+[26Feb2025 14:33:15.248] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2009ms or 40 ticks behind
+[26Feb2025 14:33:28.710] [Server thread/ERROR] [net.minecraft.network.protocol.PacketUtils/]: Failed to handle packet net.minecraft.network.protocol.game.ServerboundUseItemPacket@4547cdb6, suppressing error
 org.spongepowered.asm.mixin.injection.callback.CancellationException: The call m_37156_ is not cancellable.
 	at org.spongepowered.asm.mixin.injection.callback.CallbackInfo.cancel(CallbackInfo.java:101) ~[mixin-0.8.5.jar%2365!/:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
 	at net.minecraft.world.entity.projectile.FishingHook.handler$zbb000$retrieve(FishingHook.java:631) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
@@ -859,44 +1212,123 @@ org.spongepowered.asm.mixin.injection.callback.CancellationException: The call m
 	at net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:732) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
 	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:665) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
 	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at java.lang.Thread.run(Thread.java:842) ~[?:?]
-[262��2025 01:27:41.182] [Server thread/ERROR] [net.minecraft.network.protocol.PacketUtils/]: Failed to handle packet net.minecraft.network.protocol.game.ServerboundUseItemPacket@d340b6d, suppressing error
-org.spongepowered.asm.mixin.injection.callback.CancellationException: The call m_37156_ is not cancellable.
-	at org.spongepowered.asm.mixin.injection.callback.CallbackInfo.cancel(CallbackInfo.java:101) ~[mixin-0.8.5.jar%2365!/:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
-	at net.minecraft.world.entity.projectile.FishingHook.handler$zbb000$retrieve(FishingHook.java:631) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at net.minecraft.world.entity.projectile.FishingHook.m_37156_(FishingHook.java:417) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at net.minecraft.world.item.FishingRodItem.m_7203_(FishingRodItem.java:23) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at net.minecraft.world.item.ItemStack.m_41682_(ItemStack.java:275) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at net.minecraft.server.level.ServerPlayerGameMode.m_6261_(ServerPlayerGameMode.java:286) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at net.minecraft.server.network.ServerGamePacketListenerImpl.m_5760_(ServerGamePacketListenerImpl.java:1087) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at net.minecraft.network.protocol.game.ServerboundUseItemPacket.m_5797_(ServerboundUseItemPacket.java:29) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at net.minecraft.network.protocol.game.ServerboundUseItemPacket.m_5797_(ServerboundUseItemPacket.java:7) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at net.minecraft.network.protocol.PacketUtils.m_263899_(PacketUtils.java:22) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:770) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:161) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:753) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:747) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at net.minecraft.util.thread.BlockableEventLoop.m_18699_(BlockableEventLoop.java:115) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:732) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:665) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251) ~[server-1.20.1-20230612.114412-srg.jar%23131!/:?]
-	at java.lang.Thread.run(Thread.java:842) ~[?:?]
-[262��2025 01:28:13.938] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: OmIette lost connection: Disconnected
-[262��2025 01:28:13.940] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [�ʺ���] ���� left the game
-[262��2025 01:28:29.597] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: wny2463 moved too quickly! 3.3704845367974485,-1.5800000131130219,-9.43002278988888
-[262��2025 01:28:34.622] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[262��2025 01:28:34.632] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[262��2025 01:28:34.651] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: wny2463 lost connection: Server closed
-[262��2025 01:28:34.652] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [�ʺ���] ���� left the game
-[262��2025 01:28:34.661] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[262��2025 01:28:34.984] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Sebs-Server-World]'/minecraft:overworld
-[262��2025 01:28:35.143] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Sebs-Server-World]'/minecraft:the_end
-[262��2025 01:28:35.147] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Sebs-Server-World]'/minecraft:the_nether
-[262��2025 01:28:35.165] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (Sebs-Server-World): All chunks are saved
-[262��2025 01:28:35.166] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[262��2025 01:28:35.166] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[262��2025 01:28:35.167] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+[26Feb2025 14:33:36.146] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2006ms or 40 ticks behind
+[26Feb2025 14:33:56.596] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2006ms or 40 ticks behind
+[26Feb2025 14:34:03.741] [User Authenticator #14/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player Nohahan is 0228dc88-9371-4061-b8e1-1c14fe7a7da0
+[26Feb2025 14:34:05.499] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Nohahan[/116.121.221.160:50894] logged in with entity id 171563 at (-562.9420187477378, 173.0, 325.53175677503236)
+[26Feb2025 14:34:05.536] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [개척자] 한결 joined the game
+[26Feb2025 14:34:15.440] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3850ms or 77 ticks behind
+[26Feb2025 14:34:35.103] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4663ms or 93 ticks behind
+[26Feb2025 14:34:54.318] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4229ms or 84 ticks behind
+[26Feb2025 14:35:13.687] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4397ms or 87 ticks behind
+[26Feb2025 14:35:32.938] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4298ms or 85 ticks behind
+[26Feb2025 14:35:51.838] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3948ms or 78 ticks behind
+[26Feb2025 14:36:10.648] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3858ms or 77 ticks behind
+[26Feb2025 14:36:29.121] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3481ms or 69 ticks behind
+[26Feb2025 14:36:47.515] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3425ms or 68 ticks behind
+[26Feb2025 14:37:05.987] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3497ms or 69 ticks behind
+[26Feb2025 14:37:25.543] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4603ms or 92 ticks behind
+[26Feb2025 14:37:44.885] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4346ms or 86 ticks behind
+[26Feb2025 14:38:03.745] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3905ms or 78 ticks behind
+[26Feb2025 14:38:22.716] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3976ms or 79 ticks behind
+[26Feb2025 14:38:41.337] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3647ms or 72 ticks behind
+[26Feb2025 14:38:59.968] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3678ms or 73 ticks behind
+[26Feb2025 14:39:18.757] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3817ms or 76 ticks behind
+[26Feb2025 14:39:37.539] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3799ms or 75 ticks behind
+[26Feb2025 14:39:56.490] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4001ms or 80 ticks behind
+[26Feb2025 14:40:16.033] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4543ms or 90 ticks behind
+[26Feb2025 14:40:35.280] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4290ms or 85 ticks behind
+[26Feb2025 14:40:54.397] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4157ms or 83 ticks behind
+[26Feb2025 14:41:13.356] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3966ms or 79 ticks behind
+[26Feb2025 14:41:32.513] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4173ms or 83 ticks behind
+[26Feb2025 14:41:51.504] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4014ms or 80 ticks behind
+[26Feb2025 14:42:10.659] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4169ms or 83 ticks behind
+[26Feb2025 14:42:26.227] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Nohahan lost connection: Disconnected
+[26Feb2025 14:42:26.227] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [개척자] 한결 left the game
+[26Feb2025 14:42:29.607] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3967ms or 79 ticks behind
+[26Feb2025 14:42:47.962] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3372ms or 67 ticks behind
+[26Feb2025 14:43:06.024] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3084ms or 61 ticks behind
+[26Feb2025 14:43:24.097] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3107ms or 62 ticks behind
+[26Feb2025 14:43:42.707] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3617ms or 72 ticks behind
+[26Feb2025 14:44:00.906] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3216ms or 64 ticks behind
+[26Feb2025 14:44:19.084] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3194ms or 63 ticks behind
+[26Feb2025 14:44:37.481] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3441ms or 68 ticks behind
+[26Feb2025 14:44:55.671] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3231ms or 64 ticks behind
+[26Feb2025 14:45:13.964] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3324ms or 66 ticks behind
+[26Feb2025 14:45:32.255] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3315ms or 66 ticks behind
+[26Feb2025 14:45:50.794] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3554ms or 71 ticks behind
+[26Feb2025 14:46:09.105] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3316ms or 66 ticks behind
+[26Feb2025 14:46:27.791] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3701ms or 74 ticks behind
+[26Feb2025 14:46:46.186] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3396ms or 67 ticks behind
+[26Feb2025 14:47:04.484] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3344ms or 66 ticks behind
+[26Feb2025 14:47:23.746] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4306ms or 86 ticks behind
+[26Feb2025 14:47:42.684] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3944ms or 78 ticks behind
+[26Feb2025 14:48:01.454] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3814ms or 76 ticks behind
+[26Feb2025 14:48:21.207] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4767ms or 95 ticks behind
+[26Feb2025 14:48:40.954] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4764ms or 95 ticks behind
+[26Feb2025 14:49:00.783] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4843ms or 96 ticks behind
+[26Feb2025 14:49:21.504] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 5764ms or 115 ticks behind
+[26Feb2025 14:49:38.990] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2500ms or 50 ticks behind
+[26Feb2025 14:50:00.046] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 6056ms or 121 ticks behind
+[26Feb2025 14:50:18.067] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3027ms or 60 ticks behind
+[26Feb2025 14:50:37.246] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4206ms or 84 ticks behind
+[26Feb2025 14:50:56.521] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4281ms or 85 ticks behind
+[26Feb2025 14:51:16.228] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4739ms or 94 ticks behind
+[26Feb2025 14:51:35.955] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4765ms or 95 ticks behind
+[26Feb2025 14:51:55.313] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4373ms or 87 ticks behind
+[26Feb2025 14:52:14.468] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4178ms or 83 ticks behind
+[26Feb2025 14:52:33.803] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4363ms or 87 ticks behind
+[26Feb2025 14:52:52.873] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4083ms or 81 ticks behind
+[26Feb2025 14:53:12.321] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4481ms or 89 ticks behind
+[26Feb2025 14:53:31.900] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4611ms or 92 ticks behind
+[26Feb2025 14:53:51.908] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 5018ms or 100 ticks behind
+[26Feb2025 14:54:12.054] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 5164ms or 103 ticks behind
+[26Feb2025 14:54:31.544] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4504ms or 90 ticks behind
+[26Feb2025 14:54:51.110] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4570ms or 91 ticks behind
+[26Feb2025 14:55:10.978] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4888ms or 97 ticks behind
+[26Feb2025 14:55:31.290] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 5350ms or 107 ticks behind
+[26Feb2025 14:55:52.228] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 5938ms or 118 ticks behind
+[26Feb2025 14:56:12.649] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 5459ms or 109 ticks behind
+[26Feb2025 14:56:26.316] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: wny2463 moved too quickly! 7.191377584559746,-0.2538907259487644,-7.205964047135751
+[26Feb2025 14:56:36.407] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 8767ms or 175 ticks behind
+[26Feb2025 14:56:56.031] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4641ms or 92 ticks behind
+[26Feb2025 14:57:13.029] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2039ms or 40 ticks behind
+[26Feb2025 14:57:30.287] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2297ms or 45 ticks behind
+[26Feb2025 14:57:47.790] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2550ms or 51 ticks behind
+[26Feb2025 14:58:06.464] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3674ms or 73 ticks behind
+[26Feb2025 14:58:24.759] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3319ms or 66 ticks behind
+[26Feb2025 14:58:42.672] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2933ms or 58 ticks behind
+[26Feb2025 14:59:00.118] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2478ms or 49 ticks behind
+[26Feb2025 14:59:17.728] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2638ms or 52 ticks behind
+[26Feb2025 14:59:34.957] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2268ms or 45 ticks behind
+[26Feb2025 14:59:55.799] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 5859ms or 117 ticks behind
+[26Feb2025 15:00:15.327] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4538ms or 90 ticks behind
+[26Feb2025 15:00:34.840] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4550ms or 91 ticks behind
+[26Feb2025 15:00:52.623] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2784ms or 55 ticks behind
+[26Feb2025 15:01:12.301] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4711ms or 94 ticks behind
+[26Feb2025 15:01:31.650] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4360ms or 87 ticks behind
+[26Feb2025 15:01:51.994] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 5354ms or 107 ticks behind
+[26Feb2025 15:02:11.342] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4352ms or 87 ticks behind
+[26Feb2025 15:02:30.843] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2003ms or 40 ticks behind
+[26Feb2025 15:02:50.167] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4327ms or 86 ticks behind
+[26Feb2025 15:03:32.141] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2001ms or 40 ticks behind
+[26Feb2025 15:06:20.344] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2004ms or 40 ticks behind
+[26Feb2025 15:06:41.842] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2002ms or 40 ticks behind
+[26Feb2025 15:06:59.511] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2671ms or 53 ticks behind
+[26Feb2025 15:07:00.650] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ReumReumBR lost connection: Disconnected
+[26Feb2025 15:07:00.651] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [개척자] 선아 left the game
+[26Feb2025 15:07:23.636] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: 92in lost connection: Disconnected
+[26Feb2025 15:07:23.636] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [초보자] 유진 left the game
+[26Feb2025 15:09:02.168] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[26Feb2025 15:09:02.171] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[26Feb2025 15:09:02.188] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: OmIette lost connection: Server closed
+[26Feb2025 15:09:02.189] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [초보자] 성현 left the game
+[26Feb2025 15:09:02.196] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[26Feb2025 15:09:02.602] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Sebs-Server-World]'/minecraft:overworld
+[26Feb2025 15:09:03.382] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Sebs-Server-World]'/minecraft:the_end
+[26Feb2025 15:09:03.383] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Sebs-Server-World]'/minecraft:the_nether
+[26Feb2025 15:09:03.403] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (Sebs-Server-World): All chunks are saved
+[26Feb2025 15:09:03.403] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[26Feb2025 15:09:03.403] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[26Feb2025 15:09:03.403] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
